@@ -1,0 +1,722 @@
+[
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/A0/h__310f8d2465f8.java",
+    "line": 59,
+    "marker": "/*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/A0/h__310f8d2465f8.java",
+    "line": 70,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: p001a0.h.a(a0.h, Z.m, V.b, f0.i, java.lang.Object, f0.m, V.c, y0.c):java.lang.Object\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/A0/h__310f8d2465f8.java",
+    "line": 331,
+    "marker": "/*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/A0/h__310f8d2465f8.java",
+    "line": 342,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: p001a0.h.c(V.b, f0.i, java.lang.Object, f0.m, V.c, y0.c):java.lang.Object\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 426,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:87:0x0173, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 431,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 439,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: p009f.z.F(f.y, android.view.KeyEvent):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 691,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:19:0x0048, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 697,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 705,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: p009f.z.f(i.n):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 1338,
+    "marker": "/*  JADX ERROR: Types fix failed"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/F/z__7b4b2685ac09.java",
+    "line": 1361,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: p009f.z.onCreateView(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet):android.view.View\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/f1/l__e6cbe3ff1686.java",
+    "line": 911,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:23:0x0055, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/f1/l__e6cbe3ff1686.java",
+    "line": 916,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/f1/l__e6cbe3ff1686.java",
+    "line": 924,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f1.l.q(android.graphics.drawable.Drawable, android.graphics.Bitmap$Config, g0.h, g0.g, boolean):android.graphics.Bitmap\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/K/g__644f1844d4db.java",
+    "line": 471,
+    "marker": "/*  JADX ERROR: UnsupportedOperationException in pass: RegionMakerVisitor"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/K/g__644f1844d4db.java",
+    "line": 490,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: K.g.e(K.b, int, int):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/A__406f62e3a7c9.java",
+    "line": 44,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:11:0x0020, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/A__406f62e3a7c9.java",
+    "line": 50,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/A__406f62e3a7c9.java",
+    "line": 125,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: k1.A.m(k1.i, long):long\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 52,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:13:0x0031, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 56,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:15:0x0034, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 60,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:18:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 64,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:8:0x0028, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 71,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/l__531db79ee2fe.java",
+    "line": 112,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: k1.C0196l.compareTo(k1.l):int\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/s__59defecf6446.java",
+    "line": 127,
+    "marker": "/*  JADX ERROR: Method code generation error"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/k1/s__59defecf6446.java",
+    "line": 176,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: k1.s.m(k1.i, long):long\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/W0/p__20b2bb17eec5.java",
+    "line": 81,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:11:0x0023, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/W0/p__20b2bb17eec5.java",
+    "line": 86,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/W0/p__20b2bb17eec5.java",
+    "line": 125,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: W0.p.c(lyr.stable.wrapper.MainActivity, android.content.Intent):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/Z/l__0cc33fd47c63.java",
+    "line": 469,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:14:0x0037, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/Z/l__0cc33fd47c63.java",
+    "line": 474,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/Z/l__0cc33fd47c63.java",
+    "line": 482,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: Z.l.h(X.i, X0.y, X0.D, e0.b):X.i\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/GridLayoutManager__a73be55c42d6.java",
+    "line": 327,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:64:0x00df, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/GridLayoutManager__a73be55c42d6.java",
+    "line": 333,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/GridLayoutManager__a73be55c42d6.java",
+    "line": 341,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.recyclerview.widget.GridLayoutManager.N(android.view.View, int, androidx.recyclerview.widget.U, androidx.recyclerview.widget.Y):android.view.View\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 17,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:25:0x003e, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 21,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:30:0x004a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 25,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:42:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 29,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:43:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 35,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/01_instalador/androidx/recyclerview/widget/q__e48ff8986af6.java",
+    "line": 122,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.recyclerview.widget.C0099q.compare(java.lang.Object, java.lang.Object):int\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 474,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:20:0x003b, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 478,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:25:0x004a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 482,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:27:0x004d, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 486,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:28:0x0052, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 491,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/c__443499cbbe4f.java",
+    "line": 572,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: a2.c.o(android.content.Context, java.lang.String, boolean, boolean, boolean, long):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/r__2bf089798c10.java",
+    "line": 294,
+    "marker": "/*  JADX ERROR: Types fix failed"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/r__2bf089798c10.java",
+    "line": 316,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: a2.r.e(long, long, a2.p):a1.d\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/r__2bf089798c10.java",
+    "line": 682,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/a2/r__2bf089798c10.java",
+    "line": 690,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: a2.r.r(android.content.Context, java.lang.String):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/b2/m__67600923d952.java",
+    "line": 705,
+    "marker": "/*  JADX ERROR: Method code generation error"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/b2/m__67600923d952.java",
+    "line": 834,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: b2.m.a(java.lang.String, java.lang.String):w1.z2\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/a0__8878e1b92eb7.java",
+    "line": 361,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:28:0x0086, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/a0__8878e1b92eb7.java",
+    "line": 366,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/a0__8878e1b92eb7.java",
+    "line": 448,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.a0.n(android.view.accessibility.AccessibilityNodeInfo, long):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/i0__2dc79bc10bf8.java",
+    "line": 975,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:29:0x005a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/i0__2dc79bc10bf8.java",
+    "line": 980,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/i0__2dc79bc10bf8.java",
+    "line": 988,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.i0.k(android.accessibilityservice.AccessibilityService, java.lang.String, android.view.accessibility.AccessibilityEvent, b2.a):android.view.accessibility.AccessibilityNodeInfo\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/k0__8da56f294c94.java",
+    "line": 409,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:30:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/k0__8da56f294c94.java",
+    "line": 414,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/k0__8da56f294c94.java",
+    "line": 450,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.k0.d(int, android.view.accessibility.AccessibilityNodeInfo, java.util.ArrayList):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 2809,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:37:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 2814,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 2857,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.p0.b(android.view.accessibility.AccessibilityNodeInfo, java.lang.StringBuilder):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3099,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:22:0x003a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3104,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3150,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.p0.f(x1.r, android.view.accessibility.AccessibilityNodeInfo):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3245,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:18:0x0034, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3250,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3284,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.p0.h(android.view.accessibility.AccessibilityNodeInfo, java.util.ArrayList):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3327,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:18:0x0033, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3332,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/f2/p0__3e5867649029.java",
+    "line": 3365,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: f2.p0.i(android.view.accessibility.AccessibilityNodeInfo, java.lang.String, java.util.ArrayList):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/g0/c__c6e048ae6d95.java",
+    "line": 198,
+    "marker": "/*  JADX ERROR: JadxRuntimeException in pass: IfRegionVisitor"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/g0/c__c6e048ae6d95.java",
+    "line": 220,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: g0.c.handleMessage(android.os.Message):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/o2/c__929e7f604dd3.java",
+    "line": 57,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:24:0x0079, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/o2/c__929e7f604dd3.java",
+    "line": 63,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/o2/c__929e7f604dd3.java",
+    "line": 71,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: o2.c.f(long, w2.h):long\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1033,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:29:0x00ac, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1038,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1046,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.cf.B(java.lang.String):java.lang.String\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1076,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:277:0x0489, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1080,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:279:0x048c, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1084,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:281:0x0494, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1088,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:283:0x0497, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1092,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:285:0x049f, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1096,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:287:0x04a2, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1100,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:289:0x04aa, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1104,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:291:0x04ad, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1108,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:293:0x04b5, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1112,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:295:0x04b8, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1116,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:296:0x04b9, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1153,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/cf__b3b0d46ce06c.java",
+    "line": 1161,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.cf.C(java.lang.String):java.lang.String\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/e2__8bb4421de85e.java",
+    "line": 650,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:25:0x006a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/e2__8bb4421de85e.java",
+    "line": 655,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/e2__8bb4421de85e.java",
+    "line": 663,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.e2.p(java.lang.String, java.lang.Float, c2.t, long, long):java.lang.String\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/ec__84bfeb9e7c3b.java",
+    "line": 136,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:47:0x00b3, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/ec__84bfeb9e7c3b.java",
+    "line": 140,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:66:0x00f5, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/ec__84bfeb9e7c3b.java",
+    "line": 144,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:79:0x0118, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/ec__84bfeb9e7c3b.java",
+    "line": 183,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/ec__84bfeb9e7c3b.java",
+    "line": 191,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.ec.onSuccess(android.accessibilityservice.AccessibilityService$ScreenshotResult):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/f1__44ef81ab4453.java",
+    "line": 184,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:20:0x003b, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/f1__44ef81ab4453.java",
+    "line": 189,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/f1__44ef81ab4453.java",
+    "line": 197,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.f1.f(android.content.Context):w1.c1\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/j5__b4ac157d4618.java",
+    "line": 1163,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:51:0x0091, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/j5__b4ac157d4618.java",
+    "line": 1169,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/j5__b4ac157d4618.java",
+    "line": 1268,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.v4.get():java.lang.Object\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 286,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:111:0x0120, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 290,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:113:0x0124, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 295,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:114:0x012b, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 299,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:115:0x012d, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 303,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:116:0x012f, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 307,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:117:0x0131, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 311,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:118:0x0136, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 315,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:119:0x013b, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 320,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/m4__4ee5bf336099.java",
+    "line": 328,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.m4.g():void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/n4__0955357b908a.java",
+    "line": 525,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:51:0x0128, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/n4__0955357b908a.java",
+    "line": 530,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/n4__0955357b908a.java",
+    "line": 538,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.n4.K(android.content.SharedPreferences, org.json.JSONObject):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/n4__0955357b908a.java",
+    "line": 3585,
+    "marker": "/*  JADX ERROR: Type inference failed"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/n4__0955357b908a.java",
+    "line": 3597,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.n4.y(lyr.stable.runtime.ScreenMirrorService, int, int, g2.a1, long, int, long, h2.a, boolean, w1.u6):w1.z6\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/nf__f3ddf1d2178f.java",
+    "line": 98,
+    "marker": "/*  JADX ERROR: Types fix failed"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/w1/nf__f3ddf1d2178f.java",
+    "line": 114,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: w1.nf.onDraw(android.graphics.Canvas):void\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/y1/f__1caa1fa6993e.java",
+    "line": 140,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:35:0x004a, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/y1/f__1caa1fa6993e.java",
+    "line": 145,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/y1/f__1caa1fa6993e.java",
+    "line": 229,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: y1.f.b(int, long):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 2093,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:26:0x0056, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 2098,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 2161,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: lyr.stable.runtime.ScreenMirrorService.S1(android.view.accessibility.AccessibilityNodeInfo, java.lang.String):android.view.accessibility.AccessibilityNodeInfo\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 2940,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 2948,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: lyr.stable.runtime.ScreenMirrorService.g(lyr.stable.runtime.ScreenMirrorService, long, boolean, long):boolean\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 3210,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:48:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 3215,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 3266,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: lyr.stable.runtime.ScreenMirrorService.j2(android.view.accessibility.AccessibilityNodeInfo):java.lang.Character\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 4934,
+    "marker": "/*  JADX ERROR: Method code generation error"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 4993,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: lyr.stable.runtime.ScreenMirrorService.A0(long, boolean, boolean):w1.o7\");"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 25659,
+    "marker": "/* JADX WARN: Code restructure failed: missing block: B:84:?, code lost:"
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 25664,
+    "marker": "Code decompiled incorrectly, please refer to instructions dump."
+  },
+  {
+    "file": "02_CODIGO_COMPLETO/02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java",
+    "line": 25672,
+    "marker": "throw new UnsupportedOperationException(\"Method not decompiled: lyr.stable.runtime.ScreenMirrorService.x0(android.view.accessibility.AccessibilityNodeInfo, java.util.ArrayList):void\");"
+  }
+]

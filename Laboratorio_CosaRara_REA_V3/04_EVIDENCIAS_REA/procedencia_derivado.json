@@ -1,0 +1,5 @@
+{
+  "original_player_sha256": "c98ebae4ff74d236b494c90782c91bb1c3d44d462a065a83ab33b75a88f59795",
+  "derived_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+  "transform": "Se sustituyeron los DEX del cargador por los DEX descifrados del recurso assets/Qgoy6DWB y se omitió META-INF. APK derivado sin firma, solo para análisis; no corresponde al hash del original. No se ejecutó."
+}

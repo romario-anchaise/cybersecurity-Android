@@ -1,0 +1,158 @@
+{
+  "evidence_id": "ev_1f7d0cb82aef66c096c4df0d2472035abd20825a665db3c44c16ad53051b57cc",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "trace_android_references",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.j5",
+    "method_name": "B"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-0ccfa795e452354478e2f53004dd1dd5\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-0ccfa795e452354478e2f53004dd1dd5\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-0ccfa795e452354478e2f53004dd1dd5\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":2271,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.j5"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"j5\",\"full_name\":\"w1.j5\",\"field_count\":37,\"fields\":[{\"def_pos\":0,\"name\":\"A\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"B\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"C\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"D\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"E\",\"type\":\"long\"},{\"def_pos\":0,\"name\":\"F\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"G\",\"type\":\"java.util.HashSet\"},{\"def_pos\":0,\"name\":\"H\",\"type\":\"java.util.regex.Pattern\"},{\"def_pos\":0,\"name\":\"I\",\"type\":\"java.util.regex.Pattern\"},{\"def_pos\":0,\"name\":\"J\",\"type\":\"java.util.regex.Pattern\"},{\"def_pos\":0,\"name\":\"K\",\"type\":\"java.util.regex.Pattern\"},{\"def_pos\":0,\"name\":\"f4307a\",\"type\":\"java.util.HashMap\"},{\"def_pos\":0,\"name\":\"f4308b\",\"type\":\"java.util.HashMap\"},{\"def_pos\":0,\"name\":\"f4309c\",\"type\":\"d2.y\"},{\"def_pos\":0,\"name\":\"f4310d\",\"type\":\"java.util.concurrent.atomic.AtomicBoolean\"},{\"def_pos\":0,\"name\":\"f4311e\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f4312f\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f4313g\",\"type\":\"java.lang.Object\"},{\"def_pos\":0,\"name\":\"f4314h\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f4315i\",\"type\":\"y.e\"},{\"def_pos\":0,\"name\":\"f4316j\",\"type\":\"d2.g\"},{\"def_pos\":0,\"name\":\"f4317k\",\"type\":\"d2.v\"},{\"def_pos\":0,\"name\":\"f4318l\",\"type\":\"w1.e5\"},{\"def_pos\":0,\"name\":\"f4319m\",\"type\":\"long\"},{\"def_pos\":0,\"name\":\"f4320o\",\"type\":\"w1.o2\"},{\"def_pos\":0,\"name\":\"f4321p\",\"type\":\"w1.j3\"},{\"def_pos\":0,\"name\":\"f4322q\",\"type\":\"long\"},{\"def_pos\":0,\"name\":\"f4323r\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f4324s\",\"type\":\"long\"},{\"def_pos\":0,\"name\":\"f4325t\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4326u\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4327v\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4328w\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4329x\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4330y\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f4331z\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"n\",\"type\":\"d2.r\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"(Ld2/g;Ld2/v;)V\",\"signature\":\"\\u003cinit\\u003e(d2.g, d2.v): void\",\"def_pos\":0},{\"name\":\"A\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/i5;Ljava/lang/String;)Lw1/f5;\",\"signature\":\"A(w1.i5, java.lang.String): w1.f5\",\"def_pos\":0},{\"name\":\"B\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)V\",\"signature\":\"B(android.view.accessibility.AccessibilityEvent): void\",\"def_pos\":0},{\"name\":\"C\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\",\"signature\":\"C(java.lang.String, java.lang.String): java.lang.String\",\"def_pos\":0},{\"name\":\"D\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/Throwable;\",\"signature\":\"D(java.lang.Throwable, java.lang.String, java.lang.Throwable): java.lang.Throwable\",\"def_pos\":0},{\"name\":\"E\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/i5;)Ljava/lang/String;\",\"signature\":\"E(w1.i5): java.lang.String\",\"def_pos\":0},{\"name\":\"F\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Z)Z\",\"signature\":\"F(java.lang.String, boolean): boolean\",\"def_pos\":0},{\"name\":\"G\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"G(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"H\",\"is_constructor\":false,\"dex_descriptor\":\"(IJJ)Z\",\"signature\":\"H(int, long, long): boolean\",\"def_pos\":0},{\"name\":\"I\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;\",\"signature\":\"I(android.view.accessibility.AccessibilityNodeInfo): java.lang.String\",\"def_pos\":0},{\"name\":\"J\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;\",\"signature\":\"J(android.view.accessibility.AccessibilityNodeInfo): java.lang.String\",\"def_pos\":0},{\"name\":\"K\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"K(): void\",\"def_pos\":0},{\"name\":\"L\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"L(): void\",\"def_pos\":0},{\"name\":\"M\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/CharSequence;)Ljava/lang/String;\",\"signature\":\"M(java.lang.CharSequence): java.lang.String\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)Z\",\"signature\":\"a(java.lang.String, java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/h5;\",\"signature\":\"b(android.view.accessibility.AccessibilityEvent): w1.h5\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/i5;\",\"signature\":\"c(android.view.accessibility.AccessibilityEvent): w1.i5\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/i5;\",\"signature\":\"d(android.view.accessibility.AccessibilityEvent): w1.i5\",\"def_pos\":0},{\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"e(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"f(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)Ld2/w;\",\"signature\":\"g(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, boolean): d2.w\",\"def_pos\":0},{\"name\":\"h\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ld2/w;\",\"signature\":\"h(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, boolean, java.lang.String, java.lang.String, java.lang.String): d2.w\",\"def_pos\":0},{\"name\":\"i\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Z)Z\",\"signature\":\"i(java.lang.String, boolean): boolean\",\"def_pos\":0},{\"name\":\"j\",\"is_constructor\":false,\"dex_descriptor\":\"(J)V\",\"signature\":\"j(long): void\",\"def_pos\":0},{\"name\":\"k\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"k(): void\",\"def_pos\":0},{\"name\":\"l\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/d5;)V\",\"signature\":\"l(w1.d5): void\",\"def_pos\":0},{\"name\":\"m\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\",\"signature\":\"m(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String): java.lang.String\",\"def_pos\":0},{\"name\":\"n\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;[I)Ljava/lang/String;\",\"signature\":\"n(android.view.accessibility.AccessibilityNodeInfo, int[]): java.lang.String\",\"def_pos\":0},{\"name\":\"o\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Ljava/lang/String;\",\"signature\":\"o(android.view.accessibility.AccessibilityEvent): java.lang.String\",\"def_pos\":0},{\"name\":\"p\",\"is_constructor\":false,\"dex_descriptor\":\"(Ly/e;)V\",\"signature\":\"p(y.e): void\",\"def_pos\":0},{\"name\":\"q\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ly/e;Z)V\",\"signature\":\"q(java.lang.String, y.e, boolean): void\",\"def_pos\":0},{\"name\":\"r\",\"is_constructor\":false,\"dex_descriptor\":\"()Ld2/x;\",\"signature\":\"r(): d2.x\",\"def_pos\":0},{\"name\":\"s\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"s(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"t\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Z\",\"signature\":\"t(android.view.accessibility.AccessibilityNodeInfo): boolean\",\"def_pos\":0},{\"name\":\"u\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"u(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"v\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"signature\":\"v(java.lang.String): boolean\",\"def_pos\":0},{\"name\":\"w\",\"is_constructor\":false,\"dex_descriptor\":\"(C)Z\",\"signature\":\"w(char): boolean\",\"def_pos\":0},{\"name\":\"x\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ly/e;)V\",\"signature\":\"x(java.lang.String, y.e): void\",\"def_pos\":0},{\"name\":\"y\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"y(): void\",\"def_pos\":0},{\"name\":\"z\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"signature\":\"z(java.lang.String): void\",\"def_pos\":0}],\"method_count\":41}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_xrefs_to_method",
+        "input": {
+          "class_name": "w1.j5",
+          "method_name": "B",
+          "overload_index": 0,
+          "limit": 2147483647,
+          "resolve_line": false
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"resolve_line\":false,\"total\":1,\"items\":[{\"kind\":\"method\",\"name\":\"a\",\"full_name\":\"w1.aa.a\",\"containing_class\":\"w1.aa\",\"top_class\":\"w1.aa\",\"def_pos\":0,\"direct_invokes\":[{\"opcode\":\"INVOKE_VIRTUAL\",\"dex_entry\":\"classes.dex\",\"source_raw_method_id\":\"w1.aa.a(Lw1/t;)V\",\"dex_method_index\":8024,\"dex_code_unit_offset\":880}],\"direct_invokes_exhaustive\":true}],\"count\":1,\"target\":\"w1.j5.B\",\"overload_index\":0,\"reported_signature\":\"B(android.view.accessibility.AccessibilityEvent): void\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.j5",
+    "method_name": "B",
+    "overload_index": 0,
+    "reported_signature": "B(android.view.accessibility.AccessibilityEvent): void",
+    "dex_descriptor": "(Landroid/view/accessibility/AccessibilityEvent;)V",
+    "total": 1,
+    "references": [
+      {
+        "kind": "method",
+        "name": "a",
+        "reported_full_name": "w1.aa.a",
+        "containing_class": "w1.aa",
+        "top_class": "w1.aa",
+        "source_line": null,
+        "dex_offset": null,
+        "direct_invokes_exhaustive": true,
+        "direct_invokes": [
+          {
+            "dex_entry": "classes.dex",
+            "source_raw_method_id": "w1.aa.a(Lw1/t;)V",
+            "dex_code_unit_offset": 880,
+            "dex_method_index": 8024,
+            "opcode": "INVOKE_VIRTUAL"
+          }
+        ]
+      }
+    ],
+    "coverage": "complete",
+    "reference_unit": "using_node"
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

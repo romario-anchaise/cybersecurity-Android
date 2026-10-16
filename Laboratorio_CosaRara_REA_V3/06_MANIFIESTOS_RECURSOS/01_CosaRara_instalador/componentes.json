@@ -1,0 +1,119 @@
+[
+  {
+    "type": "activity",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.MainActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}launchMode": "2",
+      "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0",
+      "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x00000010"
+    },
+    "xml": "<activity xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"lyr.stable.wrapper.MainActivity\" android:exported=\"true\" android:launchMode=\"2\" android:configChanges=\"0x000004A0\" android:windowSoftInputMode=\"0x00000010\"/>"
+  },
+  {
+    "type": "activity",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@7F0E010B",
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.wallpaper.WallpaperBrowserActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true"
+    },
+    "xml": "<activity xmlns:android=\"http://schemas.android.com/apk/res/android\" android:theme=\"@7F0E010B\" android:name=\"lyr.stable.wrapper.wallpaper.WallpaperBrowserActivity\" android:exported=\"false\" android:excludeFromRecents=\"true\"/>"
+  },
+  {
+    "type": "activity",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}theme": "@7F0E010B",
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.wallpaper.WallpaperPreviewActivity",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}excludeFromRecents": "true"
+    },
+    "xml": "<activity xmlns:android=\"http://schemas.android.com/apk/res/android\" android:theme=\"@7F0E010B\" android:name=\"lyr.stable.wrapper.wallpaper.WallpaperPreviewActivity\" android:exported=\"false\" android:excludeFromRecents=\"true\"/>"
+  },
+  {
+    "type": "activity-alias",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "@7F0D002B",
+      "{http://schemas.android.com/apk/res/android}icon": "@7F0C0000",
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.DesktopLauncherAlias",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}targetActivity": "lyr.stable.wrapper.MainActivity"
+    },
+    "xml": "<activity-alias xmlns:android=\"http://schemas.android.com/apk/res/android\" android:label=\"@7F0D002B\" android:icon=\"@7F0C0000\" android:name=\"lyr.stable.wrapper.DesktopLauncherAlias\" android:enabled=\"true\" android:exported=\"true\" android:targetActivity=\"lyr.stable.wrapper.MainActivity\"><intent-filter><action android:name=\"android.intent.action.MAIN\"/><category android:name=\"android.intent.category.LAUNCHER\"/></intent-filter></activity-alias>"
+  },
+  {
+    "type": "activity-alias",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}label": "@7F0D002B",
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.LauncherAlias",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}targetActivity": "lyr.stable.wrapper.MainActivity"
+    },
+    "xml": "<activity-alias xmlns:android=\"http://schemas.android.com/apk/res/android\" android:label=\"@7F0D002B\" android:name=\"lyr.stable.wrapper.LauncherAlias\" android:enabled=\"true\" android:exported=\"true\" android:targetActivity=\"lyr.stable.wrapper.MainActivity\"><intent-filter><action android:name=\"android.intent.action.MAIN\"/><category android:name=\"android.intent.category.DEFAULT\"/></intent-filter></activity-alias>"
+  },
+  {
+    "type": "service",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.core.PpVpn",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_VPN_SERVICE",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    },
+    "xml": "<service xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"lyr.stable.wrapper.core.PpVpn\" android:permission=\"android.permission.BIND_VPN_SERVICE\" android:exported=\"false\"><intent-filter><action android:name=\"android.net.VpnService\"/></intent-filter></service>"
+  },
+  {
+    "type": "receiver",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.core.CoreInstallReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "false"
+    },
+    "xml": "<receiver xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"lyr.stable.wrapper.core.CoreInstallReceiver\" android:exported=\"false\"/>"
+  },
+  {
+    "type": "receiver",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.AppIconCommandReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    },
+    "xml": "<receiver xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"lyr.stable.wrapper.AppIconCommandReceiver\" android:exported=\"true\"><intent-filter><action android:name=\"lyr.stable.runtime.action.SET_APP_ICON\"/></intent-filter></receiver>"
+  },
+  {
+    "type": "receiver",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "lyr.stable.wrapper.WrapperPackageReplacedReceiver",
+      "{http://schemas.android.com/apk/res/android}exported": "true"
+    },
+    "xml": "<receiver xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"lyr.stable.wrapper.WrapperPackageReplacedReceiver\" android:exported=\"true\"><intent-filter><action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\"/></intent-filter></receiver>"
+  },
+  {
+    "type": "receiver",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "{http://schemas.android.com/apk/res/android}permission": "android.permission.DUMP",
+      "{http://schemas.android.com/apk/res/android}enabled": "true",
+      "{http://schemas.android.com/apk/res/android}exported": "true",
+      "{http://schemas.android.com/apk/res/android}directBootAware": "false"
+    },
+    "xml": "<receiver xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"androidx.profileinstaller.ProfileInstallReceiver\" android:permission=\"android.permission.DUMP\" android:enabled=\"true\" android:exported=\"true\" android:directBootAware=\"false\"><intent-filter><action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/></intent-filter><intent-filter><action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/></intent-filter><intent-filter><action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/></intent-filter><intent-filter><action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/></intent-filter></receiver>"
+  },
+  {
+    "type": "provider",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "androidx.core.content.FileProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.o2s2m.gae1fc3b2uc0u.fileprovider",
+      "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+    },
+    "xml": "<provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"androidx.core.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.o2s2m.gae1fc3b2uc0u.fileprovider\" android:grantUriPermissions=\"true\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@7F100000\"/></provider>"
+  },
+  {
+    "type": "provider",
+    "attributes": {
+      "{http://schemas.android.com/apk/res/android}name": "androidx.startup.InitializationProvider",
+      "{http://schemas.android.com/apk/res/android}exported": "false",
+      "{http://schemas.android.com/apk/res/android}authorities": "com.o2s2m.gae1fc3b2uc0u.androidx-startup"
+    },
+    "xml": "<provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:name=\"androidx.startup.InitializationProvider\" android:exported=\"false\" android:authorities=\"com.o2s2m.gae1fc3b2uc0u.androidx-startup\"><meta-data android:name=\"androidx.emoji2.text.EmojiCompatInitializer\" android:value=\"androidx.startup\"/><meta-data android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\" android:value=\"androidx.startup\"/><meta-data android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\" android:value=\"androidx.startup\"/></provider>"
+  }
+]

@@ -1,0 +1,4 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#FF000011" android:layout_width="-1" android:layout_height="-1">
+  <ImageView android:id="@7F070040" android:layout_width="-1" android:layout_height="400.000000dip" android:layout_marginTop="75.000000dip" android:src="@7F06002A" android:layout_centerHorizontal="true"/>
+  <Button android:textSize="18.000000sp" android:textStyle="0x00000001" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F070041" android:background="@7F060002" android:layout_width="130.000000dip" android:layout_height="75.000000dip" android:layout_marginTop="16.000000dip" android:text="@7F0B0036" android:shadowColor="#FF000000" android:shadowDx="9.000000" android:shadowDy="3.000000" android:shadowRadius="2.000000" android:layout_below="@7F070040" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_2123bfc078a1b6479aba6936be1537e855b4bda48190c58597ad92d6ea6fb126",
+  "subject": {
+    "name": "CosaRara.apk",
+    "digest": {
+      "sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f"
+    },
+    "local_path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+    "class_name": "lyr.stable.wrapper.MainActivity",
+    "method_name": "h"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-1031daec3e837d2b352e9de760927806\\target.apk",
+      "class_count": 1546,
+      "resource_count": 450,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":12,\"java_version\":\"21.0.12.1\",\"max_heap_bytes\":4223664128,\"metadata_scope\":\"parsed_members\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-1031daec3e837d2b352e9de760927806\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-1031daec3e837d2b352e9de760927806\\\\target.apk\",\"class_count\":1546,\"raw_class_count\":1546,\"resource_count\":450,\"load_duration_ms\":1660,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "lyr.stable.wrapper.MainActivity"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"fields\":[{\"def_pos\":0,\"type\":\"V0.a\",\"name\":\"S\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3569m0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3570n0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3571o0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3572p0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3573q0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3574r0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3575s0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3576t0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3577u0\"},{\"def_pos\":0,\"type\":\"java.lang.String\",\"name\":\"f3578v0\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3579A\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3580B\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3581C\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3582D\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3583E\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3584F\"},{\"def_pos\":0,\"type\":\"java.io.File\",\"name\":\"f3585G\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3586H\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3587I\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3588J\"},{\"def_pos\":0,\"type\":\"long\",\"name\":\"f3589K\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3590L\"},{\"def_pos\":0,\"type\":\"long\",\"name\":\"f3591M\"},{\"def_pos\":0,\"type\":\"android.os.Handler\",\"name\":\"f3592N\"},{\"def_pos\":0,\"type\":\"android.os.Handler\",\"name\":\"f3593O\"},{\"def_pos\":0,\"type\":\"android.os.Handler\",\"name\":\"f3594P\"},{\"def_pos\":0,\"type\":\"android.os.Handler\",\"name\":\"f3595Q\"},{\"def_pos\":0,\"type\":\"long\",\"name\":\"f3596R\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3597T\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3598U\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3599V\"},{\"def_pos\":0,\"type\":\"java.lang.Runnable\",\"name\":\"f3600W\"},{\"def_pos\":0,\"type\":\"android.animation.ObjectAnimator\",\"name\":\"f3601X\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3602Y\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3603Z\"},{\"def_pos\":0,\"type\":\"android.webkit.WebView\",\"name\":\"f3604a\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3605a0\"},{\"def_pos\":0,\"type\":\"android.widget.ProgressBar\",\"name\":\"f3606b\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3607b0\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3608c\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3609c0\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3610d\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3611d0\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3612e\"},{\"def_pos\":0,\"type\":\"V0.a\",\"name\":\"f3613e0\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3614f\"},{\"def_pos\":0,\"type\":\"V0.i\",\"name\":\"f3615f0\"},{\"def_pos\":0,\"type\":\"V0.i\",\"name\":\"f3616g0\"},{\"def_pos\":0,\"type\":\"android.widget.Button\",\"name\":\"f3617h\"},{\"def_pos\":0,\"type\":\"E.a\",\"name\":\"f3618h0\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3619i\"},{\"def_pos\":0,\"type\":\"V0.j\",\"name\":\"f3620i0\"},{\"def_pos\":0,\"type\":\"android.widget.ProgressBar\",\"name\":\"f3621j\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3622j0\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3623k\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3624k0\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3625l\"},{\"def_pos\":0,\"type\":\"int\",\"name\":\"f3626l0\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3627m\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3628n\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3629o\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3630p\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3631q\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3632r\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3633s\"},{\"def_pos\":0,\"type\":\"boolean\",\"name\":\"f3634t\"},{\"def_pos\":0,\"type\":\"android.widget.Button\",\"name\":\"f3635u\"},{\"def_pos\":0,\"type\":\"android.widget.Button\",\"name\":\"f3636v\"},{\"def_pos\":0,\"type\":\"android.widget.Button\",\"name\":\"f3637w\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"f3638x\"},{\"def_pos\":0,\"type\":\"android.widget.ProgressBar\",\"name\":\"f3639y\"},{\"def_pos\":0,\"type\":\"android.widget.TextView\",\"name\":\"f3640z\"},{\"def_pos\":0,\"type\":\"android.view.View\",\"name\":\"g\"}],\"field_count\":74,\"full_name\":\"lyr.stable.wrapper.MainActivity\",\"name\":\"MainActivity\",\"inner_classes\":[],\"inner_class_count\":0,\"method_count\":43,\"methods\":[{\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"A\",\"def_pos\":0,\"signature\":\"A(boolean): void\",\"dex_descriptor\":\"(Z)V\"},{\"is_constructor\":false,\"name\":\"B\",\"def_pos\":0,\"signature\":\"B(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"C\",\"def_pos\":0,\"signature\":\"C(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"D\",\"def_pos\":0,\"signature\":\"D(int): void\",\"dex_descriptor\":\"(I)V\"},{\"is_constructor\":false,\"name\":\"E\",\"def_pos\":0,\"signature\":\"E(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"F\",\"def_pos\":0,\"signature\":\"F(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"G\",\"def_pos\":0,\"signature\":\"G(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"H\",\"def_pos\":0,\"signature\":\"H(int, int): void\",\"dex_descriptor\":\"(II)V\"},{\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0,\"signature\":\"d(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"dispatchTouchEvent\",\"def_pos\":0,\"signature\":\"dispatchTouchEvent(android.view.MotionEvent): boolean\",\"dex_descriptor\":\"(Landroid/view/MotionEvent;)Z\"},{\"is_constructor\":false,\"name\":\"e\",\"def_pos\":0,\"signature\":\"e(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"f\",\"def_pos\":0,\"signature\":\"f(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"g\",\"def_pos\":0,\"signature\":\"g(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"h\",\"def_pos\":0,\"signature\":\"h(java.io.File): void\",\"dex_descriptor\":\"(Ljava/io/File;)V\"},{\"is_constructor\":false,\"name\":\"i\",\"def_pos\":0,\"signature\":\"i(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"j\",\"def_pos\":0,\"signature\":\"j(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"k\",\"def_pos\":0,\"signature\":\"k(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"l\",\"def_pos\":0,\"signature\":\"l(java.lang.String): boolean\",\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"is_constructor\":false,\"name\":\"m\",\"def_pos\":0,\"signature\":\"m(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"n\",\"def_pos\":0,\"signature\":\"n(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"o\",\"def_pos\":0,\"signature\":\"o(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\"},{\"is_constructor\":false,\"name\":\"onActivityResult\",\"def_pos\":0,\"signature\":\"onActivityResult(int, int, android.content.Intent): void\",\"dex_descriptor\":\"(IILandroid/content/Intent;)V\"},{\"is_constructor\":false,\"name\":\"onBackPressed\",\"def_pos\":0,\"signature\":\"onBackPressed(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"onCreate\",\"def_pos\":0,\"signature\":\"onCreate(android.os.Bundle): void\",\"dex_descriptor\":\"(Landroid/os/Bundle;)V\"},{\"is_constructor\":false,\"name\":\"onDestroy\",\"def_pos\":0,\"signature\":\"onDestroy(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"onNewIntent\",\"def_pos\":0,\"signature\":\"onNewIntent(android.content.Intent): void\",\"dex_descriptor\":\"(Landroid/content/Intent;)V\"},{\"is_constructor\":false,\"name\":\"onPause\",\"def_pos\":0,\"signature\":\"onPause(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"onResume\",\"def_pos\":0,\"signature\":\"onResume(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"onSaveInstanceState\",\"def_pos\":0,\"signature\":\"onSaveInstanceState(android.os.Bundle): void\",\"dex_descriptor\":\"(Landroid/os/Bundle;)V\"},{\"is_constructor\":false,\"name\":\"onStop\",\"def_pos\":0,\"signature\":\"onStop(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"p\",\"def_pos\":0,\"signature\":\"p(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"q\",\"def_pos\":0,\"signature\":\"q(java.lang.String): boolean\",\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"is_constructor\":false,\"name\":\"r\",\"def_pos\":0,\"signature\":\"r(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"s\",\"def_pos\":0,\"signature\":\"s(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"t\",\"def_pos\":0,\"signature\":\"t(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"u\",\"def_pos\":0,\"signature\":\"u(long): void\",\"dex_descriptor\":\"(J)V\"},{\"is_constructor\":false,\"name\":\"v\",\"def_pos\":0,\"signature\":\"v(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"w\",\"def_pos\":0,\"signature\":\"w(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"x\",\"def_pos\":0,\"signature\":\"x(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"y\",\"def_pos\":0,\"signature\":\"y(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"z\",\"def_pos\":0,\"signature\":\"z(): void\",\"dex_descriptor\":\"()V\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "lyr.stable.wrapper.MainActivity",
+          "method_name": "h",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"overload_count\":1,\"body\":\"    public final void h(File file) {\\r\\n        try {\\r\\n            Uri uriC \\u003d FileProvider.c(this, getPackageName() + \\\".fileprovider\\\", file);\\r\\n            Intent intent \\u003d new Intent(\\\"android.intent.action.VIEW\\\");\\r\\n            intent.setDataAndType(uriC, \\\"application/vnd.android.package-archive\\\");\\r\\n            intent.addFlags(1);\\r\\n            intent.addFlags(268435456);\\r\\n            startActivity(intent);\\r\\n        } catch (Exception e2) {\\r\\n            Log.w(f3569m0, \\\"Install intent failed\\\", e2);\\r\\n            Toast.makeText(this, R.string.install_failed, 1).show();\\r\\n        }\\r\\n    }\",\"fell_back\":false,\"overload_index\":0,\"class_name\":\"lyr.stable.wrapper.MainActivity\",\"full_name\":\"lyr.stable.wrapper.MainActivity.h\",\"mode\":\"java\",\"markers\":[],\"method_name\":\"h\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "lyr.stable.wrapper.MainActivity",
+    "method": {
+      "name": "h",
+      "reported_signature": "h(java.io.File): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Ljava/io/File;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    public final void h(File file) {\r\n        try {\r\n            Uri uriC = FileProvider.c(this, getPackageName() + \".fileprovider\", file);\r\n            Intent intent = new Intent(\"android.intent.action.VIEW\");\r\n            intent.setDataAndType(uriC, \"application/vnd.android.package-archive\");\r\n            intent.addFlags(1);\r\n            intent.addFlags(268435456);\r\n            startActivity(intent);\r\n        } catch (Exception e2) {\r\n            Log.w(f3569m0, \"Install intent failed\", e2);\r\n            Toast.makeText(this, R.string.install_failed, 1).show();\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

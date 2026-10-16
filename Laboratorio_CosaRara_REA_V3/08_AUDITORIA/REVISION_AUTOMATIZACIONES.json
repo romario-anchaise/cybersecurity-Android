@@ -1,0 +1,117 @@
+{
+  "scope": "Static read-only inspection of pre-existing JADX recovery. No execution, rebuilding, server contact or repair.",
+  "source_root": "outputs/Ampliacion_REA/Java_JADX_verificado",
+  "findings": [
+    {
+      "id": "fake_lock_input_origin",
+      "confidence": "high static; execution unverified",
+      "refs": [
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:8869",
+        "02_player_descifrado/w1/y5__9c285c5c57b3.java.txt:863",
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:3184"
+      ],
+      "detail": "M6 creates fake lock view y5, wires callback p2.a0, adds accessibility overlay (type 2032). y5.e receives user-submitted string; first attempt invokes ScreenMirrorService.j, which stores it as PIN/pattern/password. This is not extraction of arbitrary Google saved passwords."
+    },
+    {
+      "id": "event_keylogger",
+      "confidence": "high capability; connecting edge requires verification",
+      "refs": [
+        "02_player_descifrado/w1/j5__b4ac157d4618.java.txt:789",
+        "02_player_descifrado/w1/j5__b4ac157d4618.java.txt:316",
+        "02_player_descifrado/w1/j5__b4ac157d4618.java.txt:914",
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:22468",
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:11258"
+      ],
+      "detail": "B dispatches event types click 1, focus 8, text-change 16; text-change/focus queue only when f4314h enabled by K. c reads node/event text, beforeText, password flags. ScreenMirrorService initializes j5 and delegates incoming accessibility events to G4. Direct call path to j5.B not fully confirmed."
+    },
+    {
+      "id": "boot_lifecycle",
+      "confidence": "high static; device effectiveness unknown",
+      "refs": [
+        "02_player_descifrado/lyr/stable/runtime/keepalive/BootReceiver__3503f2238a8e.java.txt:21",
+        "outputs/Laboratorio_CosaRara/02_Player_cargador/AndroidManifest.xml:136"
+      ],
+      "detail": "Manifest registers boot, locked boot, user unlocked/present, package replaced. onReceive branches on action and helper state, invoking recovery-related helpers. Does not survive uninstall; receiver needs installed app and OS delivery."
+    },
+    {
+      "id": "apk_installer",
+      "confidence": "direct invocation confirmed by DEX/REA; runtime installation unobserved",
+      "refs": [
+        "02_player_descifrado/w1/z0__a48ea0eface7.java.txt:23",
+        "02_player_descifrado/lyr/stable/runtime/ApkInstallHelper$InstallResultReceiver__9a0d60be9eae.java.txt:15"
+      ],
+      "detail": "CORRECTION: REA A10 confirms w1.cf.B(String):String invokes w1.z0.a(Context,File) at DEX code-unit offset187. Java grep missed cf.B because decompilation failed. Disassembly cf__74f76651.txt:1355-1494 shows local path checks: nonempty, existing file, positive size <=150MiB, canonical app-cache/external-cache containment, and installation-source authorization. No URL downloading in B. w1.ja.run command dispatcher invokes B (ja__276d98c9.txt:204-216). Session commit is not proof of successful installation and no third APK installation was observed."
+    },
+    {
+      "id": "wrapper_installer",
+      "confidence": "high static",
+      "refs": [
+        "01_instalador/lyr/stable/wrapper/MainActivity__019343676c80.java.txt:469",
+        "01_instalador/V0/e__53f7e97dfc5a.java.txt:228"
+      ],
+      "detail": "Wrapper h(File) opens Android VIEW intent with APK MIME type via FileProvider; V0.e.run invokes h(file) in install branch. OS authorization/confirmation still relevant."
+    },
+    {
+      "id": "guard",
+      "confidence": "partial static; verify with REA",
+      "refs": [
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:16658",
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:17299"
+      ],
+      "detail": "l5 processes accessibility/foreground protection conditions; contains CoreProtectionGuard blocked-page logs. Do not equate all uninstall strings with anti-uninstall: other branches intentionally initiate self-uninstall."
+    },
+    {
+      "id": "overlay_activation_wrapper",
+      "confidence": "high static",
+      "refs": [
+        "02_player_descifrado/lyr/stable/runtime/ScreenMirrorService__f5cac3c3a743.java.txt:8679",
+        "02_player_descifrado/w1/pa__91f65ca626e6.java.txt:146"
+      ],
+      "detail": "Small selector L6(int) invokes M6 on main thread or posts ua case1. pa.run case2 invokes L6 when view absent, persisted lock_mask_active and G0 true; background screenshot fallback or callbacks also invoke L6. Does not establish original command source."
+    }
+  ],
+  "selectors": [
+    {
+      "class": "w1.y5",
+      "method": "e",
+      "purpose": "Input origin and callback; java.lang.String"
+    },
+    {
+      "class": "lyr.stable.runtime.ScreenMirrorService",
+      "method": "M6",
+      "purpose": "Fake lock view and overlay wiring; int"
+    },
+    {
+      "class": "w1.j5",
+      "method": "B",
+      "purpose": "Event dispatch and queue gate; android.view.accessibility.AccessibilityEvent"
+    },
+    {
+      "class": "lyr.stable.runtime.keepalive.BootReceiver",
+      "method": "onReceive",
+      "purpose": "System-event entry point; Context, Intent"
+    },
+    {
+      "class": "w1.cf",
+      "method": "B",
+      "purpose": "DEX-confirmed installer caller; java.lang.String local file path"
+    },
+    {
+      "class": "lyr.stable.runtime.ScreenMirrorService",
+      "method": "l5",
+      "purpose": "Protection event gating; AccessibilityEvent, w1.zc, long"
+    },
+    {
+      "class": "lyr.stable.wrapper.MainActivity",
+      "method": "h",
+      "purpose": "Wrapper APK installer intent; java.io.File"
+    }
+  ],
+  "open_questions": [
+    "Resolve ScreenMirrorService.G4 -> j5.B caller path through dispatch object(s).",
+    "M6 trigger sources and whether local automatic path versus remotely supplied action.",
+    "Validate semantics against REA/bytecode where JADX has impossible null checks (j5.c source == null && source.isPassword; condition event.getText()!=null || event.getText().isEmpty). Do not fix as reconstructed original.",
+    "None of these static artifacts establish event execution, permission grants, data theft or connected server on the user's phone.",
+    "Resolve upstream transport into w1.ja.run; direct w1.cf.B -> w1.z0.a is confirmed."
+  ]
+}

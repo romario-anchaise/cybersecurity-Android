@@ -1,0 +1,10 @@
+[
+  {
+    "entry": "META-INF/TESTKEY.RSA",
+    "subject": "1.2.840.113549.1.9.1=android@android.com,CN=Android,OU=Android,O=Android,L=Mountain View,ST=California,C=US",
+    "issuer": "1.2.840.113549.1.9.1=android@android.com,CN=Android,OU=Android,O=Android,L=Mountain View,ST=California,C=US",
+    "sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+    "serial": "10623618503190643167",
+    "warning": "Metadatos declarados; no identidad verificada ni validación completa de firma APK."
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A01_historial_serializador.json",
+    "evidence_id": "ev_1b0638be83063aa4258325582b924c6e5ce991c2cc1e1f4f578bed28b608f18c",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.n",
+      "method_name": "s"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A01_historial_serializador.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A02_confirmacion_lotes.json",
+    "evidence_id": "ev_2c9ec331dd11c7d1d8b337ac0beb551b833d74184fc3c5237a62458e00f6ac6c",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.n",
+      "method_name": "f0"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A02_confirmacion_lotes.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A03_configuracion_gateway.json",
+    "evidence_id": "ev_9ab1cb8c0e2cadeca364f250604b1958492f7e3beb6c49fd7f8a94cb50520299",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.cf",
+      "method_name": "o0"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A03_configuracion_gateway.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A04_perfiles_descifrado.json",
+    "evidence_id": "ev_e54544c02b3056cc2111a93f056d72c9cf782c03264d0addd3e99335af3b5065",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "f2.j",
+      "method_name": "a"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A04_perfiles_descifrado.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A05_perfiles_carga.json",
+    "evidence_id": "ev_9ddd4c801d38a3cd911f6af214e7cfb0c82f2ecae8bedaf346b729c38ab20aeb",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "f2.j",
+      "method_name": "b"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A05_perfiles_carga.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A06_arranque.json",
+    "evidence_id": "ev_429d8070ffd5ccd30e0483d6debe30a07a4a3dfc65b29d0c11fbb5faaad18ba6",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "lyr.stable.runtime.keepalive.BootReceiver",
+      "method_name": "onReceive"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A06_arranque.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A07_origen_captura.json",
+    "evidence_id": "ev_807cb00db3d21e756d27bc4f3e1a34a68e119d6fc6c186951e4a377a40b71210",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.y5",
+      "method_name": "e"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A07_origen_captura.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A08_opciones_conexion.json",
+    "evidence_id": "ev_ec02318774d19050d1a46e63a8db90f3183c13d27b75eef217b0a699325f7b6b",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "g2.a0",
+      "method_name": "x"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A08_opciones_conexion.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A09_marcar_sincronizados.json",
+    "evidence_id": "ev_6399a7c40462b76b43728f0f99388843aca6f0ee0a28c1f6ab4d3266115a95e9",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.y2",
+      "method_name": "E"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A09_marcar_sincronizados.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A10_referencias_instalador.json",
+    "evidence_id": "ev_802ff8ef4c623f941a899977fa32f8747461e456f8ca8c4658626e487ffbcaa9",
+    "operation": "trace_android_references",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.z0",
+      "method_name": "a"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": null,
+    "fell_back": null,
+    "markers": null,
+    "body_status": null,
+    "code_file": null,
+    "reference_count": 1
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A11_eventos_de_entrada.json",
+    "evidence_id": "ev_05972ff61317af7c91081276b3928f2878e0fe4119ec98f3530f4f734c4a8dcd",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.j5",
+      "method_name": "B"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A11_eventos_de_entrada.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A12_referencias_pantalla.json",
+    "evidence_id": "ev_0d66c2d354cf4a04c1cf5f631787199990a82cabef7480e401479e12bffd604e",
+    "operation": "trace_android_references",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "lyr.stable.runtime.ScreenMirrorService",
+      "method_name": "M6"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": null,
+    "fell_back": null,
+    "markers": null,
+    "body_status": null,
+    "code_file": null,
+    "reference_count": 2
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A13_instalador_original.json",
+    "evidence_id": "ev_2123bfc078a1b6479aba6936be1537e855b4bda48190c58597ad92d6ea6fb126",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+      "class_name": "lyr.stable.wrapper.MainActivity",
+      "method_name": "h"
+    },
+    "subject_sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f",
+    "representation": "java",
+    "fell_back": false,
+    "markers": [],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A13_instalador_original.java",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A14_instalador_llamador.json",
+    "evidence_id": "ev_d380aef9714d29f567f321447dbe7cd8e28302ed2fbee6cfcf047808f91c008a",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.cf",
+      "method_name": "B"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": "smali",
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ],
+    "body_status": "available",
+    "code_file": "01_CODIGO_CLAVE/NUEVOS/A14_instalador_llamador.smali",
+    "reference_count": null
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A15_referencias_eventos.json",
+    "evidence_id": "ev_1f7d0cb82aef66c096c4df0d2472035abd20825a665db3c44c16ad53051b57cc",
+    "operation": "trace_android_references",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.j5",
+      "method_name": "B"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": null,
+    "fell_back": null,
+    "markers": null,
+    "body_status": null,
+    "code_file": null,
+    "reference_count": 1
+  },
+  {
+    "file": "04_EVIDENCIAS_REA/NUEVAS/A16_referencias_cola_salida.json",
+    "evidence_id": "ev_c850ce005134971f2872f937639d4062fe7be8340ba25dbd43152c2e268c9a90",
+    "operation": "trace_android_references",
+    "parameters": {
+      "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+      "class_name": "w1.x2",
+      "method_name": "run"
+    },
+    "subject_sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a",
+    "representation": null,
+    "fell_back": null,
+    "markers": null,
+    "body_status": null,
+    "code_file": null,
+    "reference_count": 0
+  }
+]

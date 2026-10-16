@@ -1,0 +1,7 @@
+{
+  "apk_sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f",
+  "member": "lib/arm64-v8a/libpayload.so",
+  "member_sha256": "2c74b6a6643845cdefab99e666543e32a8a52d8d287c9d97c6796dbab69ce207",
+  "tool": "Ghidra 12.1.4 direct headless; NOT REA native provider",
+  "target_execution": false
+}

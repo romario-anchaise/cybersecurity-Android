@@ -1,0 +1,9 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F08009C" android:background="#FFFFFFFF" android:layout_width="-1" android:layout_height="-1">
+  <include layout="@7F0B0031"/>
+  <include layout="@7F0B002F"/>
+  <WebView android:id="@7F0800F6" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2"/>
+  <ProgressBar android:layout_gravity="0x00000030" android:id="@7F080095" android:visibility="2" android:layout_width="-1" android:layout_height="3.000000dip" android:max="100" android:progress="0" style="?android:01010078"/>
+  <include android:id="@7F08005E" android:visibility="2" layout="@7F0B002E"/>
+  <include android:id="@7F0800DC" android:visibility="2" layout="@7F0B0033"/>
+  <include android:id="@7F080008" android:visibility="2" layout="@7F0B002D"/>
+</FrameLayout>

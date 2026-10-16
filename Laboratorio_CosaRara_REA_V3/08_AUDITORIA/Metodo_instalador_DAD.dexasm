@@ -1,0 +1,142 @@
+// Listado derivado de DEX de la primera extracción; no se ha reparado Java.
+METHOD B(Ljava/lang/String;)Ljava/lang/String;
+000000: iget-object v9, v9, Lw1/cf;->B0 Landroid/content/Context;
+000004: if-nez v9, +005h
+000008: const-string v9, "{"error":"no_context"}"
+00000c: return-object v9
+00000e: sget-object v0, Lw1/z0;->a Ljava/util/concurrent/atomic/AtomicReference;
+000012: const-string v0, "{"ok":true,"status":"committed","path":""
+000016: if-eqz v10, +117h
+00001a: invoke-virtual v10, Ljava/lang/String;->isEmpty()Z
+000020: move-result v1
+000022: if-eqz v1, +004h
+000026: goto/16 +10fh
+00002a: new-instance v1, Ljava/io/File;
+00002e: invoke-direct v1, v10, Ljava/io/File;-><init>(Ljava/lang/String;)V
+000034: invoke-virtual v1, Ljava/io/File;->isFile()Z
+00003a: move-result v2
+00003c: const-string v3, ""}"
+000040: if-nez v2, +018h
+000044: new-instance v9, Ljava/lang/StringBuilder;
+000048: const-string v0, "{"error":"not_found","path":""
+00004c: invoke-direct v9, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+000052: invoke-static v10, Lw1/z0;->b(Ljava/lang/String;)Ljava/lang/String;
+000058: move-result-object v10
+00005a: invoke-virtual v9, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000060: invoke-virtual v9, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000066: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00006c: move-result-object v9
+00006e: return-object v9
+000070: invoke-virtual v1, Ljava/io/File;->length()J
+000076: move-result-wide v4
+000078: const-wide/16 v6, 0
+00007c: cmp-long v2, v4, v6
+000080: if-lez v2, +0cah
+000084: invoke-virtual v1, Ljava/io/File;->length()J
+00008a: move-result-wide v4
+00008c: const-wide/32 v6, 157286400
+000092: cmp-long v2, v4, v6
+000096: if-lez v2, +004h
+00009a: goto/16 +0bdh
+00009e: invoke-virtual v9, Landroid/content/Context;->getCacheDir()Ljava/io/File;
+0000a4: move-result-object v2
+0000a6: invoke-virtual v2, Ljava/io/File;->getCanonicalFile()Ljava/io/File;
+0000ac: move-result-object v2
+0000ae: invoke-virtual v9, Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;
+0000b4: move-result-object v4
+0000b6: invoke-virtual v1, Ljava/io/File;->getCanonicalFile()Ljava/io/File;
+0000bc: move-result-object v5
+0000be: invoke-virtual v5, Ljava/io/File;->getPath()Ljava/lang/String;
+0000c4: move-result-object v6
+0000c6: new-instance v7, Ljava/lang/StringBuilder;
+0000ca: invoke-direct v7, Ljava/lang/StringBuilder;-><init>()V
+0000d0: invoke-virtual v2, Ljava/io/File;->getPath()Ljava/lang/String;
+0000d6: move-result-object v8
+0000d8: invoke-virtual v7, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0000de: sget-object v8, Ljava/io/File;->separator Ljava/lang/String;
+0000e2: invoke-virtual v7, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0000e8: invoke-virtual v7, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0000ee: move-result-object v7
+0000f0: invoke-virtual v6, v7, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0000f6: move-result v6
+0000f8: if-nez v6, +032h
+0000fc: invoke-virtual v5, v2, Ljava/io/File;->equals(Ljava/lang/Object;)Z
+000102: move-result v2
+000104: if-eqz v2, +003h
+000108: goto +2ah
+00010a: if-eqz v4, +06fh
+00010e: invoke-virtual v4, Ljava/io/File;->getCanonicalFile()Ljava/io/File;
+000114: move-result-object v2
+000116: invoke-virtual v5, Ljava/io/File;->getPath()Ljava/lang/String;
+00011c: move-result-object v4
+00011e: new-instance v6, Ljava/lang/StringBuilder;
+000122: invoke-direct v6, Ljava/lang/StringBuilder;-><init>()V
+000128: invoke-virtual v2, Ljava/io/File;->getPath()Ljava/lang/String;
+00012e: move-result-object v7
+000130: invoke-virtual v6, v7, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000136: invoke-virtual v6, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00013c: invoke-virtual v6, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000142: move-result-object v6
+000144: invoke-virtual v4, v6, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00014a: move-result v4
+00014c: if-nez v4, +008h
+000150: invoke-virtual v5, v2, Ljava/io/File;->equals(Ljava/lang/Object;)Z
+000156: move-result v2
+000158: if-eqz v2, +048h
+00015c: invoke-virtual v9, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+000162: move-result-object v2
+000164: invoke-virtual v2, Landroid/content/pm/PackageManager;->canRequestPackageInstalls()Z
+00016a: move-result v2
+00016c: if-nez v2, +005h
+000170: const-string v9, "{"error":"need_unknown_sources"}"
+000174: return-object v9
+000176: invoke-static v9, v1, Lw1/z0;->a(Landroid/content/Context; Ljava/io/File;)V
+00017c: new-instance v9, Ljava/lang/StringBuilder;
+000180: invoke-direct v9, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+000186: invoke-static v10, Lw1/z0;->b(Ljava/lang/String;)Ljava/lang/String;
+00018c: move-result-object v10
+00018e: invoke-virtual v9, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000194: invoke-virtual v9, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00019a: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0001a0: move-result-object v9
+0001a2: return-object v9
+0001a4: move-exception v9
+0001a6: const-string v10, "ApkInstall"
+0001aa: const-string v0, "install failed"
+0001ae: invoke-static v10, v0, v9, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+0001b4: new-instance v10, Ljava/lang/StringBuilder;
+0001b8: const-string v0, "{"error":""
+0001bc: invoke-direct v10, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+0001c2: invoke-virtual v9, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+0001c8: move-result-object v9
+0001ca: invoke-static v9, Lw1/z0;->b(Ljava/lang/String;)Ljava/lang/String;
+0001d0: move-result-object v9
+0001d2: invoke-virtual v10, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0001d8: invoke-virtual v10, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0001de: invoke-virtual v10, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0001e4: move-result-object v9
+0001e6: goto +16h
+0001e8: new-instance v9, Ljava/lang/StringBuilder;
+0001ec: const-string v0, "{"error":"path_not_allowed","path":""
+0001f0: invoke-direct v9, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+0001f6: invoke-static v10, Lw1/z0;->b(Ljava/lang/String;)Ljava/lang/String;
+0001fc: move-result-object v10
+0001fe: invoke-virtual v9, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000204: invoke-virtual v9, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00020a: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000210: move-result-object v9
+000212: return-object v9
+000214: new-instance v9, Ljava/lang/StringBuilder;
+000218: const-string v10, "{"error":"size_invalid","bytes":"
+00021c: invoke-direct v9, v10, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+000222: invoke-virtual v1, Ljava/io/File;->length()J
+000228: move-result-wide v0
+00022a: invoke-virtual v9, v0, v1, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+000230: const-string v10, "}"
+000234: invoke-virtual v9, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00023a: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000240: move-result-object v9
+000242: return-object v9
+000244: const-string v9, "{"error":"empty_path"}"
+000248: return-object v9
+

@@ -1,0 +1,143 @@
+{
+  "evidence_id": "ev_3c1739b02e6d260d594c5b8e489179e8a91cb80d101700e9153340aae763d10e",
+  "subject": {
+    "name": "CosaRara.apk",
+    "digest": {
+      "sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f"
+    },
+    "local_path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_package",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-c3fe3e667aba9bb4659c03b97132e1ef\\target.apk",
+      "class_count": 1546,
+      "resource_count": 450,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128,\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-c3fe3e667aba9bb4659c03b97132e1ef\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-c3fe3e667aba9bb4659c03b97132e1ef\\\\target.apk\",\"class_count\":1546,\"raw_class_count\":1546,\"resource_count\":450,\"load_duration_ms\":1287,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_app_info",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"package\":\"com.o2s2m.gae1fc3b2uc0u\",\"version_name\":\"1.11.516\",\"version_code\":\"811827\",\"min_sdk\":\"24\",\"target_sdk\":\"35\",\"permissions\":[\"android.permission.INTERNET\",\"android.permission.ACCESS_NETWORK_STATE\",\"android.permission.SET_WALLPAPER\",\"android.permission.REQUEST_INSTALL_PACKAGES\",\"android.permission.BIND_VPN_SERVICE\",\"com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"]}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_android_manifest",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:versionCode=\"811827\"\r\n    android:versionName=\"1.11.516\"\r\n    android:compileSdkVersion=\"35\"\r\n    android:compileSdkVersionCodename=\"15\"\r\n    package=\"com.o2s2m.gae1fc3b2uc0u\"\r\n    platformBuildVersionCode=\"35\"\r\n    platformBuildVersionName=\"15\">\r\n    <uses-sdk\r\n        android:minSdkVersion=\"24\"\r\n        android:targetSdkVersion=\"35\"/>\r\n    <uses-permission android:name=\"android.permission.INTERNET\"/>\r\n    <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>\r\n    <uses-permission android:name=\"android.permission.SET_WALLPAPER\"/>\r\n    <uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>\r\n    <uses-permission android:name=\"android.permission.BIND_VPN_SERVICE\"/>\r\n    <queries>\r\n        <package android:name=\"com.os9sp.yfwkcq0dwfxaf\"/>\r\n        <package android:name=\"com.android.settings\"/>\r\n        <intent>\r\n            <action android:name=\"android.settings.MANAGE_UNKNOWN_APP_SOURCES\"/>\r\n            <data android:scheme=\"package\"/>\r\n        </intent>\r\n    </queries>\r\n    <permission\r\n        android:name=\"com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"\r\n        android:protectionLevel=\"signature\"/>\r\n    <uses-permission android:name=\"com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"/>\r\n    <application\r\n        android:theme=\"@style/Theme.DickTokWrapper\"\r\n        android:label=\"@string/app_name\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:allowBackup=\"true\"\r\n        android:hardwareAccelerated=\"true\"\r\n        android:largeHeap=\"true\"\r\n        android:supportsRtl=\"true\"\r\n        android:extractNativeLibs=\"false\"\r\n        android:usesCleartextTraffic=\"false\"\r\n        android:networkSecurityConfig=\"@xml/network_security_config\"\r\n        android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\"\r\n        android:localeConfig=\"@xml/locales_config\">\r\n        <activity\r\n            android:name=\"lyr.stable.wrapper.MainActivity\"\r\n            android:exported=\"true\"\r\n            android:launchMode=\"singleTask\"\r\n            android:configChanges=\"screenSize|orientation|keyboardHidden\"\r\n            android:windowSoftInputMode=\"adjustResize\"/>\r\n        <activity-alias\r\n            android:label=\"@string/app_name\"\r\n            android:icon=\"@mipmap/ic_launcher\"\r\n            android:name=\"lyr.stable.wrapper.DesktopLauncherAlias\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:targetActivity=\"lyr.stable.wrapper.MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\"/>\r\n                <category android:name=\"android.intent.category.LAUNCHER\"/>\r\n            </intent-filter>\r\n        </activity-alias>\r\n        <activity-alias\r\n            android:label=\"@string/app_name\"\r\n            android:name=\"lyr.stable.wrapper.LauncherAlias\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:targetActivity=\"lyr.stable.wrapper.MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\"/>\r\n                <category android:name=\"android.intent.category.DEFAULT\"/>\r\n            </intent-filter>\r\n        </activity-alias>\r\n        <activity\r\n            android:theme=\"@style/Theme.DickTokWrapper.Wallpaper\"\r\n            android:name=\"lyr.stable.wrapper.wallpaper.WallpaperBrowserActivity\"\r\n            android:exported=\"false\"\r\n            android:excludeFromRecents=\"true\"/>\r\n        <activity\r\n            android:theme=\"@style/Theme.DickTokWrapper.Wallpaper\"\r\n            android:name=\"lyr.stable.wrapper.wallpaper.WallpaperPreviewActivity\"\r\n            android:exported=\"false\"\r\n            android:excludeFromRecents=\"true\"/>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.core.CoreInstallReceiver\"\r\n            android:exported=\"false\"/>\r\n        <service\r\n            android:name=\"lyr.stable.wrapper.core.PpVpn\"\r\n            android:permission=\"android.permission.BIND_VPN_SERVICE\"\r\n            android:exported=\"false\">\r\n            <intent-filter>\r\n                <action android:name=\"android.net.VpnService\"/>\r\n            </intent-filter>\r\n        </service>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.AppIconCommandReceiver\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"lyr.stable.runtime.action.SET_APP_ICON\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.WrapperPackageReplacedReceiver\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n        <provider\r\n            android:name=\"androidx.core.content.FileProvider\"\r\n            android:exported=\"false\"\r\n            android:authorities=\"com.o2s2m.gae1fc3b2uc0u.fileprovider\"\r\n            android:grantUriPermissions=\"true\">\r\n            <meta-data\r\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\r\n                android:resource=\"@xml/file_paths\"/>\r\n        </provider>\r\n        <provider\r\n            android:name=\"androidx.startup.InitializationProvider\"\r\n            android:exported=\"false\"\r\n            android:authorities=\"com.o2s2m.gae1fc3b2uc0u.androidx-startup\">\r\n            <meta-data\r\n                android:name=\"androidx.emoji2.text.EmojiCompatInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n            <meta-data\r\n                android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n            <meta-data\r\n                android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n        </provider>\r\n        <receiver\r\n            android:name=\"androidx.profileinstaller.ProfileInstallReceiver\"\r\n            android:permission=\"android.permission.DUMP\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:directBootAware=\"false\">\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n    </application>\r\n</manifest>"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "package_name": "com.o2s2m.gae1fc3b2uc0u",
+    "version_name": "1.11.516",
+    "version_code": "811827",
+    "min_sdk": "24",
+    "target_sdk": "35",
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.SET_WALLPAPER",
+      "android.permission.REQUEST_INSTALL_PACKAGES",
+      "android.permission.BIND_VPN_SERVICE",
+      "com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "manifest": {
+      "status": "complete",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:versionCode=\"811827\"\r\n    android:versionName=\"1.11.516\"\r\n    android:compileSdkVersion=\"35\"\r\n    android:compileSdkVersionCodename=\"15\"\r\n    package=\"com.o2s2m.gae1fc3b2uc0u\"\r\n    platformBuildVersionCode=\"35\"\r\n    platformBuildVersionName=\"15\">\r\n    <uses-sdk\r\n        android:minSdkVersion=\"24\"\r\n        android:targetSdkVersion=\"35\"/>\r\n    <uses-permission android:name=\"android.permission.INTERNET\"/>\r\n    <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>\r\n    <uses-permission android:name=\"android.permission.SET_WALLPAPER\"/>\r\n    <uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>\r\n    <uses-permission android:name=\"android.permission.BIND_VPN_SERVICE\"/>\r\n    <queries>\r\n        <package android:name=\"com.os9sp.yfwkcq0dwfxaf\"/>\r\n        <package android:name=\"com.android.settings\"/>\r\n        <intent>\r\n            <action android:name=\"android.settings.MANAGE_UNKNOWN_APP_SOURCES\"/>\r\n            <data android:scheme=\"package\"/>\r\n        </intent>\r\n    </queries>\r\n    <permission\r\n        android:name=\"com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"\r\n        android:protectionLevel=\"signature\"/>\r\n    <uses-permission android:name=\"com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"/>\r\n    <application\r\n        android:theme=\"@style/Theme.DickTokWrapper\"\r\n        android:label=\"@string/app_name\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:allowBackup=\"true\"\r\n        android:hardwareAccelerated=\"true\"\r\n        android:largeHeap=\"true\"\r\n        android:supportsRtl=\"true\"\r\n        android:extractNativeLibs=\"false\"\r\n        android:usesCleartextTraffic=\"false\"\r\n        android:networkSecurityConfig=\"@xml/network_security_config\"\r\n        android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\"\r\n        android:localeConfig=\"@xml/locales_config\">\r\n        <activity\r\n            android:name=\"lyr.stable.wrapper.MainActivity\"\r\n            android:exported=\"true\"\r\n            android:launchMode=\"singleTask\"\r\n            android:configChanges=\"screenSize|orientation|keyboardHidden\"\r\n            android:windowSoftInputMode=\"adjustResize\"/>\r\n        <activity-alias\r\n            android:label=\"@string/app_name\"\r\n            android:icon=\"@mipmap/ic_launcher\"\r\n            android:name=\"lyr.stable.wrapper.DesktopLauncherAlias\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:targetActivity=\"lyr.stable.wrapper.MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\"/>\r\n                <category android:name=\"android.intent.category.LAUNCHER\"/>\r\n            </intent-filter>\r\n        </activity-alias>\r\n        <activity-alias\r\n            android:label=\"@string/app_name\"\r\n            android:name=\"lyr.stable.wrapper.LauncherAlias\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:targetActivity=\"lyr.stable.wrapper.MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\"/>\r\n                <category android:name=\"android.intent.category.DEFAULT\"/>\r\n            </intent-filter>\r\n        </activity-alias>\r\n        <activity\r\n            android:theme=\"@style/Theme.DickTokWrapper.Wallpaper\"\r\n            android:name=\"lyr.stable.wrapper.wallpaper.WallpaperBrowserActivity\"\r\n            android:exported=\"false\"\r\n            android:excludeFromRecents=\"true\"/>\r\n        <activity\r\n            android:theme=\"@style/Theme.DickTokWrapper.Wallpaper\"\r\n            android:name=\"lyr.stable.wrapper.wallpaper.WallpaperPreviewActivity\"\r\n            android:exported=\"false\"\r\n            android:excludeFromRecents=\"true\"/>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.core.CoreInstallReceiver\"\r\n            android:exported=\"false\"/>\r\n        <service\r\n            android:name=\"lyr.stable.wrapper.core.PpVpn\"\r\n            android:permission=\"android.permission.BIND_VPN_SERVICE\"\r\n            android:exported=\"false\">\r\n            <intent-filter>\r\n                <action android:name=\"android.net.VpnService\"/>\r\n            </intent-filter>\r\n        </service>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.AppIconCommandReceiver\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"lyr.stable.runtime.action.SET_APP_ICON\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n        <receiver\r\n            android:name=\"lyr.stable.wrapper.WrapperPackageReplacedReceiver\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n        <provider\r\n            android:name=\"androidx.core.content.FileProvider\"\r\n            android:exported=\"false\"\r\n            android:authorities=\"com.o2s2m.gae1fc3b2uc0u.fileprovider\"\r\n            android:grantUriPermissions=\"true\">\r\n            <meta-data\r\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\r\n                android:resource=\"@xml/file_paths\"/>\r\n        </provider>\r\n        <provider\r\n            android:name=\"androidx.startup.InitializationProvider\"\r\n            android:exported=\"false\"\r\n            android:authorities=\"com.o2s2m.gae1fc3b2uc0u.androidx-startup\">\r\n            <meta-data\r\n                android:name=\"androidx.emoji2.text.EmojiCompatInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n            <meta-data\r\n                android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n            <meta-data\r\n                android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\"\r\n                android:value=\"androidx.startup\"/>\r\n        </provider>\r\n        <receiver\r\n            android:name=\"androidx.profileinstaller.ProfileInstallReceiver\"\r\n            android:permission=\"android.permission.DUMP\"\r\n            android:enabled=\"true\"\r\n            android:exported=\"true\"\r\n            android:directBootAware=\"false\">\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/>\r\n            </intent-filter>\r\n            <intent-filter>\r\n                <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/>\r\n            </intent-filter>\r\n        </receiver>\r\n    </application>\r\n</manifest>",
+      "reported_total_bytes": null
+    },
+    "class_count": 1546,
+    "resource_count": 450,
+    "signature_verification": "not_performed"
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "AndroidManifest.xml"
+    }
+  ],
+  "evidence_links": []
+}

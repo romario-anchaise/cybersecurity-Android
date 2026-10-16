@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="811827" android:versionName="1.11.516" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="com.o2s2m.gae1fc3b2uc0u" platformBuildVersionCode="35" platformBuildVersionName="15">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+  <uses-permission android:name="android.permission.BIND_VPN_SERVICE"/>
+  <queries>
+    <package android:name="com.os9sp.yfwkcq0dwfxaf"/>
+    <package android:name="com.android.settings"/>
+    <intent>
+      <action android:name="android.settings.MANAGE_UNKNOWN_APP_SOURCES"/>
+      <data android:scheme="package"/>
+    </intent>
+  </queries>
+  <permission android:name="com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <application android:theme="@7F0E010A" android:label="@7F0D002B" android:icon="@7F0C0000" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:extractNativeLibs="false" android:usesCleartextTraffic="false" android:networkSecurityConfig="@7F100002" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:localeConfig="@7F100001">
+    <activity android:name="lyr.stable.wrapper.MainActivity" android:exported="true" android:launchMode="2" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000010"/>
+    <activity-alias android:label="@7F0D002B" android:icon="@7F0C0000" android:name="lyr.stable.wrapper.DesktopLauncherAlias" android:enabled="true" android:exported="true" android:targetActivity="lyr.stable.wrapper.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias android:label="@7F0D002B" android:name="lyr.stable.wrapper.LauncherAlias" android:enabled="true" android:exported="true" android:targetActivity="lyr.stable.wrapper.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity-alias>
+    <activity android:theme="@7F0E010B" android:name="lyr.stable.wrapper.wallpaper.WallpaperBrowserActivity" android:exported="false" android:excludeFromRecents="true"/>
+    <activity android:theme="@7F0E010B" android:name="lyr.stable.wrapper.wallpaper.WallpaperPreviewActivity" android:exported="false" android:excludeFromRecents="true"/>
+    <receiver android:name="lyr.stable.wrapper.core.CoreInstallReceiver" android:exported="false"/>
+    <service android:name="lyr.stable.wrapper.core.PpVpn" android:permission="android.permission.BIND_VPN_SERVICE" android:exported="false">
+      <intent-filter>
+        <action android:name="android.net.VpnService"/>
+      </intent-filter>
+    </service>
+    <receiver android:name="lyr.stable.wrapper.AppIconCommandReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="lyr.stable.runtime.action.SET_APP_ICON"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="lyr.stable.wrapper.WrapperPackageReplacedReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+      </intent-filter>
+    </receiver>
+    <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.o2s2m.gae1fc3b2uc0u.fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F100000"/>
+    </provider>
+    <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.o2s2m.gae1fc3b2uc0u.androidx-startup">
+      <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+      <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+      <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+    </provider>
+    <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

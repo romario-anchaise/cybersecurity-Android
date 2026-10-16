@@ -1,0 +1,180 @@
+{
+  "evidence_id": "ev_df765668b14236615da21b3179f3326b176867f8ec8a4e63955028658022b17d",
+  "subject": {
+    "name": "CosaRara.apk",
+    "digest": {
+      "sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f"
+    },
+    "local_path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_class",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+    "class_name": "lyr.stable.wrapper.core.PayloadDecrypt"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-f1830125622505b46a32f7456911a8e9\\target.apk",
+      "class_count": 1546,
+      "resource_count": 450,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-f1830125622505b46a32f7456911a8e9\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-f1830125622505b46a32f7456911a8e9\\\\target.apk\",\"class_count\":1546,\"raw_class_count\":1546,\"resource_count\":450,\"load_duration_ms\":2214,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "lyr.stable.wrapper.core.PayloadDecrypt"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"PayloadDecrypt\",\"full_name\":\"lyr.stable.wrapper.core.PayloadDecrypt\",\"field_count\":4,\"fields\":[{\"def_pos\":0,\"name\":\"f3643a\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f3644b\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f3645c\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"f3646d\",\"type\":\"byte[]\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"([B)[B\",\"signature\":\"a(byte[]): byte[]\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;)[B\",\"signature\":\"b(int, java.lang.String): byte[]\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;)[B\",\"signature\":\"c(android.content.Context): byte[]\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;)[B\",\"signature\":\"d(android.content.Context, java.lang.String): byte[]\",\"def_pos\":0},{\"name\":\"nativeAesCbcDecrypt\",\"is_constructor\":false,\"dex_descriptor\":\"([B[B[B)[B\",\"signature\":\"nativeAesCbcDecrypt(byte[], byte[], byte[]): byte[]\",\"def_pos\":0},{\"name\":\"nativeGunzip\",\"is_constructor\":false,\"dex_descriptor\":\"([B)[B\",\"signature\":\"nativeGunzip(byte[]): byte[]\",\"def_pos\":0}],\"method_count\":7}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "lyr.stable.wrapper.core.PayloadDecrypt",
+    "methods": [
+      {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "()V"
+      },
+      {
+        "name": "a",
+        "reported_signature": "a(byte[]): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "([B)[B"
+      },
+      {
+        "name": "b",
+        "reported_signature": "b(int, java.lang.String): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "(ILjava/lang/String;)[B"
+      },
+      {
+        "name": "c",
+        "reported_signature": "c(android.content.Context): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "(Landroid/content/Context;)[B"
+      },
+      {
+        "name": "d",
+        "reported_signature": "d(android.content.Context, java.lang.String): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "(Landroid/content/Context;Ljava/lang/String;)[B"
+      },
+      {
+        "name": "nativeAesCbcDecrypt",
+        "reported_signature": "nativeAesCbcDecrypt(byte[], byte[], byte[]): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "([B[B[B)[B"
+      },
+      {
+        "name": "nativeGunzip",
+        "reported_signature": "nativeGunzip(byte[]): byte[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": "([B)[B"
+      }
+    ],
+    "fields": [
+      {
+        "name": "f3643a",
+        "reported_type": "java.lang.String"
+      },
+      {
+        "name": "f3644b",
+        "reported_type": "java.lang.String"
+      },
+      {
+        "name": "f3645c",
+        "reported_type": "int"
+      },
+      {
+        "name": "f3646d",
+        "reported_type": "byte[]"
+      }
+    ],
+    "inner_classes": []
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

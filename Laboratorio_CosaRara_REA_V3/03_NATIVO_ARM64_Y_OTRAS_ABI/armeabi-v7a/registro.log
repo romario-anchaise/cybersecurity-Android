@@ -1,0 +1,132 @@
+INFO  Using log config file: jar:file:/C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-tools/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\Romario\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\Romario\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1110 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (13776 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\ghidra-scripts-v3
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\ghidra_projects\PlayerNativeArm32Deep (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\ghidra_projects\PlayerNativeArm32Deep (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\ghidra_projects\PlayerNativeArm32Deep (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so (HeadlessAnalyzer)  
+WARN  508 NOP constructors found (SleighCompile)  
+WARN  Use -n switch to list each individually (SleighCompile)  
+WARN  8 unnecessary extensions/truncations were converted to copies (SleighCompile)  
+WARN  Use -u switch to list each individually (SleighCompile)  
+WARN  1 operations wrote to temporaries that were not read (SleighCompile)  
+WARN  Use -t switch to list each individually (SleighCompile)  
+WARN  ARMneon.sinc:140: Unreferenced table: 'Sreg2' (SleighCompile)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\rea-tools\java\jdk-21.0.12.1+1\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell, C:\Users\Romario\.codex\tmp\arg0\codex-arg0IXDwYD, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\, C:\Program Files\Microsoft SQL Server\170\Tools\Binn\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\, C:\Program Files\Microsoft SQL Server\170\DTS\Binn\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\dotnet\, C:\Users\Romario\AppData\Local\Microsoft\WindowsApps, C:\Users\Romario\AppData\Roaming\npm, C:\Users\Romario\AppData\Local\Python\bin, C:\Users\Romario\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\Romario\.dotnet\tools, C:\Users\Romario\AppData\Local\Unity\bin, C:\Users\Romario\AppData\Local\Programs\DockerDesktop\resources\bin, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin, C:\Users\Romario\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd, C:\Users\Romario\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a, C:\Users\Romario\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so?MD5=0bafdc32dd17f706204cd427d7604e0b...
+Setting block .data.rel.ro to read-only
+Setting block .fini_array to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libpayload.so' to imported libraries...
+  [libz.so] -> not found in project
+  [libm.so] -> not found in project
+  [libdl.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libpayload.so] - 10 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=7e0f7247da1cf8b49e71dc06dfa838a73613defc, objectType=DEBUGINFO, extra=null] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+INFO  Packed database cache: C:\Users\Romario\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+WARN  374 NOP constructors found (SleighCompile)  
+WARN  Use -n switch to list each individually (SleighCompile)  
+WARN  663 unnecessary extensions/truncations were converted to copies (SleighCompile)  
+WARN  Use -u switch to list each individually (SleighCompile)  
+WARN  14 operations wrote to temporaries that were not read (SleighCompile)  
+WARN  Use -t switch to list each individually (SleighCompile)  
+WARN  ia.sinc:1028: Unreferenced table: 'pcRelSimm32' (SleighCompile)  
+WARN  ia.sinc:1029: Unreferenced table: 'pcRelSimm32_32' (SleighCompile)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.173 secs
+    ARM Symbol                                 0.000 secs
+    ASCII Strings                              0.543 secs
+    Apply Data Archives                        5.665 secs
+    Call Convention ID                         0.001 secs
+    Call-Fixup Installer                       0.034 secs
+    Create Address Tables                      0.006 secs
+    Create Address Tables - One Time           0.000 secs
+    Create Function                            0.090 secs
+    DWARF                                      0.018 secs
+    Data Reference                             0.009 secs
+    Decompiler Switch Analysis                 0.712 secs
+    Demangler GNU                              0.143 secs
+    Disassemble Entry Points                   0.360 secs
+    Embedded Media                             0.007 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.287 secs
+    Function Start Pre Search                  0.058 secs
+    Function Start Search                      0.093 secs
+    Function Start Search After Code           0.007 secs
+    Function Start Search After Data           0.008 secs
+    Non-Returning Functions - Discovered       0.003 secs
+    Non-Returning Functions - Known            0.025 secs
+    Reference                                  0.015 secs
+    Shared Return Calls                        0.008 secs
+    Stack                                      0.144 secs
+    Subroutine References                      0.007 secs
+-----------------------------------------------------
+     Total Time   8 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportNative.java 'C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\native_deep\armeabi-v7a'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\ghidra-scripts-v3\ExportNative.java (HeadlessAnalyzer)  
+WARN  Decompiling 00013000, pcode error at 00013000: Unable to disassemble EXTERNAL block location: 00013000 (DecompileCallback)  
+WARN  Decompiling 00013004, pcode error at 00013004: Unable to disassemble EXTERNAL block location: 00013004 (DecompileCallback)  
+WARN  Decompiling 00013008, pcode error at 00013008: Unable to disassemble EXTERNAL block location: 00013008 (DecompileCallback)  
+WARN  Decompiling 0001300c, pcode error at 0001300c: Unable to disassemble EXTERNAL block location: 0001300c (DecompileCallback)  
+WARN  Decompiling 00013014, pcode error at 00013014: Unable to disassemble EXTERNAL block location: 00013014 (DecompileCallback)  
+WARN  Decompiling 00013018, pcode error at 00013018: Unable to disassemble EXTERNAL block location: 00013018 (DecompileCallback)  
+WARN  Decompiling 0001301c, pcode error at 0001301c: Unable to disassemble EXTERNAL block location: 0001301c (DecompileCallback)  
+WARN  Decompiling 00013020, pcode error at 00013020: Unable to disassemble EXTERNAL block location: 00013020 (DecompileCallback)  
+WARN  Decompiling 00013024, pcode error at 00013024: Unable to disassemble EXTERNAL block location: 00013024 (DecompileCallback)  
+WARN  Decompiling 00013028, pcode error at 00013028: Unable to disassemble EXTERNAL block location: 00013028 (DecompileCallback)  
+INFO  ExportNative.java> NATIVE_EXPORT_COMPLETE C:\Users\Romario\Documents\Codex\2026-10-15\ho\work\native_deep\armeabi-v7a (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/Users/Romario/Documents/Codex/2026-10-15/ho/work/rea-native/lib/armeabi-v7a/libpayload.so (HeadlessAnalyzer)  
+INFO  /libpayload.so: file created (Romario) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libpayload.so (PlayerNativeArm32Deep:/libpayload.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

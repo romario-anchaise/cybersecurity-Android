@@ -1,0 +1,114 @@
+{
+  "scope": "Read-only static review of existing JADX reconstruction; no APK execution or contact with servers",
+  "source_root": "outputs/Ampliacion_REA/Java_JADX_verificado/02_player_descifrado",
+  "findings": [
+    {
+      "class": "w1.cf",
+      "method": "o0",
+      "file": "w1/cf__b3b0d46ce06c.java.txt",
+      "line": 3163,
+      "observation": "Resolves gatewayUrl through c2.u.n and WSS validator"
+    },
+    {
+      "class": "w1.cf",
+      "method": "G0",
+      "file": "w1/cf__b3b0d46ce06c.java.txt",
+      "line": 1320,
+      "observation": "Generation and network-gated Socket.IO control setup"
+    },
+    {
+      "class": "g2.a0",
+      "method": "x",
+      "file": "g2/a0__364d7ea62176.java.txt",
+      "line": 7409,
+      "observation": "Socket.IO /socket.io/ path, websocket transport, role=device"
+    },
+    {
+      "class": "g2.a0",
+      "method": "constructor callbacks",
+      "file": "g2/a0__364d7ea62176.java.txt",
+      "line": 285,
+      "observation": "device:register includes androidId, manufacturer, model, appVersion, capabilities; optional controlResume"
+    },
+    {
+      "class": "w1.y2",
+      "method": "D",
+      "file": "w1/y2__e5762d984f19.java.txt",
+      "line": 130,
+      "observation": "Reads up to 20 pending commitments ordered by capture time"
+    },
+    {
+      "class": "w1.n",
+      "method": "s",
+      "file": "w1/n__7ff050a74939.java.txt",
+      "line": 2402,
+      "observation": "Serializes credential batch; max20 entries and16384bytes; fields id/secret/mode/provenance/capturedAtMs"
+    },
+    {
+      "class": "w1.cf",
+      "method": "x0",
+      "file": "w1/cf__b3b0d46ce06c.java.txt",
+      "line": 4128,
+      "observation": "State-gated metadata stream write/flush/response"
+    },
+    {
+      "class": "w1.cf",
+      "method": "g0",
+      "file": "w1/cf__b3b0d46ce06c.java.txt",
+      "line": 2699,
+      "observation": "5second metadata response timeout"
+    },
+    {
+      "class": "w1.n",
+      "method": "f0",
+      "file": "w1/n__7ff050a74939.java.txt",
+      "line": 1750,
+      "observation": "Parses credential_ack accepted/retryable/reason/saved/ids"
+    },
+    {
+      "class": "w1.x2",
+      "method": "run",
+      "file": "w1/x2__3aacf808cdb0.java.txt",
+      "line": 35,
+      "observation": "Sends pending credential batch; absent ACK/retryable failure retain debt; accepted matching IDs marked synced"
+    },
+    {
+      "class": "w1.y2",
+      "method": "E",
+      "file": "w1/y2__e5762d984f19.java.txt",
+      "line": 160,
+      "observation": "Marks sync_state=1, does not delete acknowledged records"
+    },
+    {
+      "class": "a2.i",
+      "method": "run case14",
+      "file": "a2/i__66219d8325fa.java.txt",
+      "line": 357,
+      "observation": "Active reporter reschedules flush every60000ms"
+    }
+  ],
+  "recommended_rea_selectors": [
+    "w1.n.s",
+    "w1.n.f0",
+    "g2.a0.x",
+    "w1.cf.o0",
+    "w1.cf.G0",
+    "w1.y2.E"
+  ],
+  "inference": "Persistent outbound credential reporting design with acknowledgments and retry handling",
+  "unknowns": [
+    "Actual execution on user's device",
+    "Successful transmission or ACK",
+    "Current server availability",
+    "Operators' identities",
+    "Complete dynamic configuration",
+    "Every channel and callback",
+    "Whether a captured secret was a Google password"
+  ],
+  "limitations": [
+    "Derived decompiler representation",
+    "Huge duplicated g2.a0 constructor callbacks",
+    "No server implementation present",
+    "Endpoint indicators inherited from previous extraction, not contacted"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "new_rea_records": 16,
+  "previous_rea_records": 14,
+  "decoded_profile_entries": 126,
+  "native_abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "java_files": 3006,
+  "native_c_files": 3,
+  "smali_files": 1,
+  "decompiler_marker_hits": 144,
+  "source_archive_sha256": "14f07a35b29554f81b3cab3082de14b8bd1d9fa906b6f1e2965777e04dfaf81c",
+  "execution_of_target": false,
+  "rebuild_attempt": false
+}

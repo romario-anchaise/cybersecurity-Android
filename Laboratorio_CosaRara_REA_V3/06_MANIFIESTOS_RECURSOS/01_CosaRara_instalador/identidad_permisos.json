@@ -1,0 +1,16 @@
+{
+  "input_file": "C:\\Users\\Romario\\Downloads\\CosaRara.apk",
+  "sha256": "165205d8889e8e279d72f571f6ab7d2008247ccf80742a88f1092c6bc2ae1d1f",
+  "size": 4754919,
+  "package": "com.o2s2m.gae1fc3b2uc0u",
+  "name": "CosaRara",
+  "version": "1.11.516",
+  "permissions": [
+    "android.permission.BIND_VPN_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.o2s2m.gae1fc3b2uc0u.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.SET_WALLPAPER"
+  ]
+}

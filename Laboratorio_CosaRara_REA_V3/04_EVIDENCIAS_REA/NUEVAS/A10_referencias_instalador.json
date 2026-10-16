@@ -1,0 +1,158 @@
+{
+  "evidence_id": "ev_802ff8ef4c623f941a899977fa32f8747461e456f8ca8c4658626e487ffbcaa9",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "trace_android_references",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.z0",
+    "method_name": "a"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-627f7f2165c803665fabe088a08e4b74\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-627f7f2165c803665fabe088a08e4b74\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-627f7f2165c803665fabe088a08e4b74\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":1770,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.z0"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"method_count\":3,\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"z0\",\"full_name\":\"w1.z0\",\"field_count\":1,\"fields\":[{\"def_pos\":0,\"name\":\"f5657a\",\"type\":\"java.util.concurrent.atomic.AtomicReference\"}],\"methods\":[{\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\"},{\"def_pos\":0,\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/io/File;)V\",\"signature\":\"a(android.content.Context, java.io.File): void\"},{\"def_pos\":0,\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Ljava/lang/String;\",\"signature\":\"b(java.lang.String): java.lang.String\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_xrefs_to_method",
+        "input": {
+          "class_name": "w1.z0",
+          "method_name": "a",
+          "overload_index": 0,
+          "limit": 2147483647,
+          "resolve_line": false
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"resolve_line\":false,\"total\":1,\"items\":[{\"kind\":\"method\",\"name\":\"B\",\"full_name\":\"w1.cf.B\",\"containing_class\":\"w1.cf\",\"top_class\":\"w1.cf\",\"def_pos\":0,\"direct_invokes\":[{\"opcode\":\"INVOKE_STATIC\",\"dex_entry\":\"classes.dex\",\"source_raw_method_id\":\"w1.cf.B(Ljava/lang/String;)Ljava/lang/String;\",\"dex_method_index\":9311,\"dex_code_unit_offset\":187}],\"direct_invokes_exhaustive\":true}],\"count\":1,\"target\":\"w1.z0.a\",\"overload_index\":0,\"reported_signature\":\"a(android.content.Context, java.io.File): void\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.z0",
+    "method_name": "a",
+    "overload_index": 0,
+    "reported_signature": "a(android.content.Context, java.io.File): void",
+    "dex_descriptor": "(Landroid/content/Context;Ljava/io/File;)V",
+    "total": 1,
+    "references": [
+      {
+        "kind": "method",
+        "name": "B",
+        "reported_full_name": "w1.cf.B",
+        "containing_class": "w1.cf",
+        "top_class": "w1.cf",
+        "source_line": null,
+        "dex_offset": null,
+        "direct_invokes_exhaustive": true,
+        "direct_invokes": [
+          {
+            "dex_entry": "classes.dex",
+            "source_raw_method_id": "w1.cf.B(Ljava/lang/String;)Ljava/lang/String;",
+            "dex_code_unit_offset": 187,
+            "dex_method_index": 9311,
+            "opcode": "INVOKE_STATIC"
+          }
+        ]
+      }
+    ],
+    "coverage": "complete",
+    "reference_unit": "using_node"
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

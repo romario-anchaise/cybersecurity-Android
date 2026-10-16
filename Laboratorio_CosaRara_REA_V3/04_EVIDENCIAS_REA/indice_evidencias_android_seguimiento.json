@@ -1,0 +1,77 @@
+[
+  {
+    "label": "09_procesa_captura_A1",
+    "exit": 0,
+    "evidence_id": "ev_c197f38db6afb8d64bad7168467965db38009098f3d8a7d4f9cd05ddc51d81e8",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  },
+  {
+    "label": "10_procesa_captura_F4",
+    "exit": 0,
+    "evidence_id": "ev_869dbbabe40b3df5ffe167e0b23260edfb55035db687ff2f6e4759d76dff000c",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  },
+  {
+    "label": "11_procesa_captura_m6",
+    "exit": 0,
+    "evidence_id": "ev_bd5696c3733e2d14e7607a7cd4792c5bfc8497cb0a1b60d0ed7dfecf9ed6f9cf",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  }
+]

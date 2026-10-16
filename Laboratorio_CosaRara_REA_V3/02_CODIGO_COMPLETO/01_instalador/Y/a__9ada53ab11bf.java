@@ -1,0 +1,20 @@
+// Decompiled with JADX from the REA-supplied audited engine JAR; not original source.
+package p043y;
+
+import android.icu.util.ULocale;
+import java.util.Locale;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class a {
+    public static ULocale a(Object obj) {
+        return ULocale.addLikelySubtags((ULocale) obj);
+    }
+
+    public static ULocale b(Locale locale) {
+        return ULocale.forLocale(locale);
+    }
+
+    public static String c(Object obj) {
+        return ((ULocale) obj).getScript();
+    }
+}

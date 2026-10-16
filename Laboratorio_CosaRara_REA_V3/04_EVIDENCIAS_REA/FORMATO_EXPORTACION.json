@@ -1,0 +1,8 @@
+{
+  "source_archive_sha256": "b4ac43cf6d63f81d37c7b539e451b89e572a4d31d359bdda944adadcfb7cb74e",
+  "changes": "Solo extensiones de código y referencias de rutas en Markdown/índices. Código recuperado sin correcciones ni modificaciones de comportamiento.",
+  "files": {
+    "java": 2995,
+    "c": 1
+  }
+}

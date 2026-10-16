@@ -1,0 +1,16 @@
+// Decompiled with JADX from the REA-supplied audited engine JAR; not original source.
+package android.support.v4.app;
+
+import U.a;
+import androidx.core.app.RemoteActionCompat;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class RemoteActionCompatParcelizer extends androidx.core.app.RemoteActionCompatParcelizer {
+    public static RemoteActionCompat read(a aVar) {
+        return androidx.core.app.RemoteActionCompatParcelizer.read(aVar);
+    }
+
+    public static void write(RemoteActionCompat remoteActionCompat, a aVar) {
+        androidx.core.app.RemoteActionCompatParcelizer.write(remoteActionCompat, aVar);
+    }
+}

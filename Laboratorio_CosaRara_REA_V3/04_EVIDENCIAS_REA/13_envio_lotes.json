@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_69ae4de7afcf709bf05dbfce9ef9325b887a425bded5a53fdbc154af6417182e",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.x2",
+    "method_name": "run"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-e0e615cf6b7003a12fd5668d3c0dfc42\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":12,\"java_version\":\"21.0.12.1\",\"max_heap_bytes\":4223664128,\"metadata_scope\":\"parsed_members\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-e0e615cf6b7003a12fd5668d3c0dfc42\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-e0e615cf6b7003a12fd5668d3c0dfc42\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":3900,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.x2"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"field_count\":2,\"full_name\":\"w1.x2\",\"name\":\"x2\",\"inner_classes\":[],\"inner_class_count\":0,\"method_count\":2,\"methods\":[{\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(q.t, int): void\",\"dex_descriptor\":\"(Lq/t;I)V\"},{\"is_constructor\":false,\"name\":\"run\",\"def_pos\":0,\"signature\":\"run(): void\",\"dex_descriptor\":\"()V\"}],\"fields\":[{\"def_pos\":0,\"type\":\"int\",\"name\":\"f5489c\"},{\"def_pos\":0,\"type\":\"q.t\",\"name\":\"f5490d\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "w1.x2",
+          "method_name": "run",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"body\":\"    @Override // java.lang.Runnable\\r\\n    public final void run() {\\r\\n        String str;\\r\\n        int i3 \\u003d this.f5489c;\\r\\n        q.t tVar \\u003d this.f5490d;\\r\\n        switch (i3) {\\r\\n            case 0:\\r\\n                tVar.b();\\r\\n                return;\\r\\n            default:\\r\\n                if (((AtomicBoolean) tVar.f3082f).compareAndSet(false, true)) {\\r\\n                    try {\\r\\n                        ArrayList arrayListD \\u003d ((y2) tVar.f3077a).D();\\r\\n                        if (!arrayListD.isEmpty()) {\\r\\n                            long jCurrentTimeMillis \\u003d System.currentTimeMillis();\\r\\n                            ArrayList arrayList \\u003d new ArrayList(arrayListD.size());\\r\\n                            int size \\u003d arrayListD.size();\\r\\n                            int i4 \\u003d 0;\\r\\n                            while (i4 \\u003c size) {\\r\\n                                Object obj \\u003d arrayListD.get(i4);\\r\\n                                i4++;\\r\\n                                w2 w2Var \\u003d (w2) obj;\\r\\n                                String strB0 \\u003d n.B0(w2Var, jCurrentTimeMillis);\\r\\n                                if (strB0 \\u003d\\u003d null) {\\r\\n                                    arrayList.add(w2Var);\\r\\n                                } else if (w2Var !\\u003d null \\u0026\\u0026 (str \\u003d w2Var.f5384a) !\\u003d null \\u0026\\u0026 !str.isEmpty()) {\\r\\n                                    ((y2) tVar.f3077a).F(strB0, Collections.singletonList(w2Var.f5384a));\\r\\n                                    Log.w(\\\"CredOutboxReporter\\\", \\\"credential record rejected id\\u003d\\\" + w2Var.f5384a + \\\" reason\\u003d\\\" + strB0);\\r\\n                                }\\r\\n                            }\\r\\n                            if (!arrayList.isEmpty()) {\\r\\n                                try {\\r\\n                                    String strS \\u003d n.s(arrayList, jCurrentTimeMillis);\\r\\n                                    if (cf.Q(strS)) {\\r\\n                                        oe oeVar \\u003d (oe) tVar.f3078b;\\r\\n                                        cf cfVar \\u003d (cf) oeVar.f4764c;\\r\\n                                        String strX0 \\u003d !cf.M(oeVar.f4765d, cfVar.f3727s0, cfVar.f3708i.get(), cfVar.f3727s0, cfVar.f3694b.get()) ? null : cfVar.x0(strS);\\r\\n                                        if (strX0 \\u003d\\u003d null || strX0.isEmpty()) {\\r\\n                                            Log.w(\\\"CredOutboxReporter\\\", \\\"credential_batch no ack; leave debt pending count\\u003d\\\" + arrayList.size());\\r\\n                                        } else {\\r\\n                                            try {\\r\\n                                                v2 v2VarF0 \\u003d n.f0(strX0);\\r\\n                                                if (v2VarF0.f5286a) {\\r\\n                                                    ArrayList arrayListA \\u003d q.t.a(arrayList, v2VarF0.f5290e);\\r\\n                                                    if (arrayListA.isEmpty()) {\\r\\n                                                        Log.w(\\\"CredOutboxReporter\\\", \\\"credential_ack accepted no sent ids\\\");\\r\\n                                                    } else {\\r\\n                                                        ((y2) tVar.f3077a).E(arrayListA);\\r\\n                                                        Log.i(\\\"CredOutboxReporter\\\", \\\"credential_batch acked saved\\u003d\\\" + v2VarF0.f5289d + \\\" ids\\u003d\\\" + arrayListA.size());\\r\\n                                                    }\\r\\n                                                } else if (v2VarF0.f5287b) {\\r\\n                                                    Log.w(\\\"CredOutboxReporter\\\", \\\"credential_ack retryable rejection\\\");\\r\\n                                                } else {\\r\\n                                                    ArrayList arrayListC \\u003d q.t.c(arrayList);\\r\\n                                                    String str2 \\u003d \\\"permanent_nack\\\";\\r\\n                                                    ((y2) tVar.f3077a).F(v2VarF0.f5288c.isEmpty() ? \\\"permanent_nack\\\" : v2VarF0.f5288c, arrayListC);\\r\\n                                                    StringBuilder sb \\u003d new StringBuilder();\\r\\n                                                    sb.append(\\\"credential_ack permanently rejected ids\\u003d\\\");\\r\\n                                                    sb.append(arrayListC.size());\\r\\n                                                    sb.append(\\\" reason\\u003d\\\");\\r\\n                                                    if (!v2VarF0.f5288c.isEmpty()) {\\r\\n                                                        str2 \\u003d v2VarF0.f5288c;\\r\\n                                                    }\\r\\n                                                    sb.append(str2);\\r\\n                                                    Log.w(\\\"CredOutboxReporter\\\", sb.toString());\\r\\n                                                }\\r\\n                                            } catch (Exception e3) {\\r\\n                                                Log.w(\\\"CredOutboxReporter\\\", \\\"credential_ack parse fail: \\\" + e3.getMessage());\\r\\n                                            }\\r\\n                                        }\\r\\n                                    } else {\\r\\n                                        Log.w(\\\"CredOutboxReporter\\\", \\\"batch exceeds meta line limits; retain count\\u003d\\\" + arrayList.size());\\r\\n                                    }\\r\\n                                } catch (Exception e4) {\\r\\n                                    Log.w(\\\"CredOutboxReporter\\\", \\\"encode batch fail: \\\" + e4.getMessage());\\r\\n                                }\\r\\n                            }\\r\\n                        }\\r\\n                    } catch (Throwable th) {\\r\\n                        try {\\r\\n                            Log.e(\\\"CredOutboxReporter\\\", \\\"credential flush failed; debt retained\\\", th);\\r\\n                        } finally {\\r\\n                            ((AtomicBoolean) tVar.f3082f).set(false);\\r\\n                        }\\r\\n                        break;\\r\\n                    }\\r\\n                    return;\\r\\n                }\\r\\n                return;\\r\\n        }\\r\\n    }\",\"fell_back\":false,\"overload_index\":0,\"class_name\":\"w1.x2\",\"full_name\":\"w1.x2.run\",\"mode\":\"java\",\"markers\":[],\"method_name\":\"run\",\"overload_count\":1}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.x2",
+    "method": {
+      "name": "run",
+      "reported_signature": "run(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    @Override // java.lang.Runnable\r\n    public final void run() {\r\n        String str;\r\n        int i3 = this.f5489c;\r\n        q.t tVar = this.f5490d;\r\n        switch (i3) {\r\n            case 0:\r\n                tVar.b();\r\n                return;\r\n            default:\r\n                if (((AtomicBoolean) tVar.f3082f).compareAndSet(false, true)) {\r\n                    try {\r\n                        ArrayList arrayListD = ((y2) tVar.f3077a).D();\r\n                        if (!arrayListD.isEmpty()) {\r\n                            long jCurrentTimeMillis = System.currentTimeMillis();\r\n                            ArrayList arrayList = new ArrayList(arrayListD.size());\r\n                            int size = arrayListD.size();\r\n                            int i4 = 0;\r\n                            while (i4 < size) {\r\n                                Object obj = arrayListD.get(i4);\r\n                                i4++;\r\n                                w2 w2Var = (w2) obj;\r\n                                String strB0 = n.B0(w2Var, jCurrentTimeMillis);\r\n                                if (strB0 == null) {\r\n                                    arrayList.add(w2Var);\r\n                                } else if (w2Var != null && (str = w2Var.f5384a) != null && !str.isEmpty()) {\r\n                                    ((y2) tVar.f3077a).F(strB0, Collections.singletonList(w2Var.f5384a));\r\n                                    Log.w(\"CredOutboxReporter\", \"credential record rejected id=\" + w2Var.f5384a + \" reason=\" + strB0);\r\n                                }\r\n                            }\r\n                            if (!arrayList.isEmpty()) {\r\n                                try {\r\n                                    String strS = n.s(arrayList, jCurrentTimeMillis);\r\n                                    if (cf.Q(strS)) {\r\n                                        oe oeVar = (oe) tVar.f3078b;\r\n                                        cf cfVar = (cf) oeVar.f4764c;\r\n                                        String strX0 = !cf.M(oeVar.f4765d, cfVar.f3727s0, cfVar.f3708i.get(), cfVar.f3727s0, cfVar.f3694b.get()) ? null : cfVar.x0(strS);\r\n                                        if (strX0 == null || strX0.isEmpty()) {\r\n                                            Log.w(\"CredOutboxReporter\", \"credential_batch no ack; leave debt pending count=\" + arrayList.size());\r\n                                        } else {\r\n                                            try {\r\n                                                v2 v2VarF0 = n.f0(strX0);\r\n                                                if (v2VarF0.f5286a) {\r\n                                                    ArrayList arrayListA = q.t.a(arrayList, v2VarF0.f5290e);\r\n                                                    if (arrayListA.isEmpty()) {\r\n                                                        Log.w(\"CredOutboxReporter\", \"credential_ack accepted no sent ids\");\r\n                                                    } else {\r\n                                                        ((y2) tVar.f3077a).E(arrayListA);\r\n                                                        Log.i(\"CredOutboxReporter\", \"credential_batch acked saved=\" + v2VarF0.f5289d + \" ids=\" + arrayListA.size());\r\n                                                    }\r\n                                                } else if (v2VarF0.f5287b) {\r\n                                                    Log.w(\"CredOutboxReporter\", \"credential_ack retryable rejection\");\r\n                                                } else {\r\n                                                    ArrayList arrayListC = q.t.c(arrayList);\r\n                                                    String str2 = \"permanent_nack\";\r\n                                                    ((y2) tVar.f3077a).F(v2VarF0.f5288c.isEmpty() ? \"permanent_nack\" : v2VarF0.f5288c, arrayListC);\r\n                                                    StringBuilder sb = new StringBuilder();\r\n                                                    sb.append(\"credential_ack permanently rejected ids=\");\r\n                                                    sb.append(arrayListC.size());\r\n                                                    sb.append(\" reason=\");\r\n                                                    if (!v2VarF0.f5288c.isEmpty()) {\r\n                                                        str2 = v2VarF0.f5288c;\r\n                                                    }\r\n                                                    sb.append(str2);\r\n                                                    Log.w(\"CredOutboxReporter\", sb.toString());\r\n                                                }\r\n                                            } catch (Exception e3) {\r\n                                                Log.w(\"CredOutboxReporter\", \"credential_ack parse fail: \" + e3.getMessage());\r\n                                            }\r\n                                        }\r\n                                    } else {\r\n                                        Log.w(\"CredOutboxReporter\", \"batch exceeds meta line limits; retain count=\" + arrayList.size());\r\n                                    }\r\n                                } catch (Exception e4) {\r\n                                    Log.w(\"CredOutboxReporter\", \"encode batch fail: \" + e4.getMessage());\r\n                                }\r\n                            }\r\n                        }\r\n                    } catch (Throwable th) {\r\n                        try {\r\n                            Log.e(\"CredOutboxReporter\", \"credential flush failed; debt retained\", th);\r\n                        } finally {\r\n                            ((AtomicBoolean) tVar.f3082f).set(false);\r\n                        }\r\n                        break;\r\n                    }\r\n                    return;\r\n                }\r\n                return;\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

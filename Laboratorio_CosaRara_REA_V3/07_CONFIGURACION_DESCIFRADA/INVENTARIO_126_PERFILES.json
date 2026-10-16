@@ -1,0 +1,1664 @@
+[
+  {
+    "profile_name": "permission_profiles/A60_A60.json",
+    "bytes": 1618,
+    "sha256": "ed6601b0772915f81f8d25c6a885a0d55ce02b322712b8cfa839825ddfb57621",
+    "profileId": "A60_A60_v1",
+    "manufacturer": "A60",
+    "model": "A60",
+    "androidSdk": 27,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ARMADILOS_Listo22.json",
+    "bytes": 375,
+    "sha256": "f2a63a166429b45e72f43c2785b00c999f211fc6ade95c23160ba245b247b64d",
+    "profileId": "ARMADILOS_Listo22_v1",
+    "manufacturer": "ARMADILOS",
+    "model": "Listo22",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/BLU_G8.json",
+    "bytes": 561,
+    "sha256": "3f076be875f9ad15e4c90ce074035e22fb8f1c80c6709f560b4dc153b86cda5c",
+    "profileId": "BLU_G8_v1",
+    "manufacturer": "BLU",
+    "model": "G8",
+    "androidSdk": 28,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/BLU_M8L_2022.json",
+    "bytes": 365,
+    "sha256": "522427c774f751b6520190d325d8b4abe97969584de8170eff1ce164462e2b89",
+    "profileId": "BLU_M8L_2022_v1",
+    "manufacturer": "BLU",
+    "model": "M8L 2022",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/DCODE_DS-BD2.json",
+    "bytes": 429,
+    "sha256": "e2f502c97f26efb8fba736d8261c7a5b0b54b7bd23ab917bb7902dfad1be81bd",
+    "profileId": "DCODE_DS-BD2_v1",
+    "manufacturer": "DCODE",
+    "model": "DS-BD2",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/DOOGEE_S97Pro.json",
+    "bytes": 1636,
+    "sha256": "1618dfa5ba7caee7052adb53c5a67aa30676f5a780ba2f04fd80349517a6a806",
+    "profileId": "DOOGEE_S97Pro_v1",
+    "manufacturer": "DOOGEE",
+    "model": "S97Pro",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/F29_F29.json",
+    "bytes": 241,
+    "sha256": "cd0a9f8fbc32fb3016fc077e27a3787ef6c4d22391320dcdbf1abe009984c2c1",
+    "profileId": "F29_F29_v1",
+    "manufacturer": "F29",
+    "model": "F29",
+    "androidSdk": null,
+    "sections": [
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/FISE_GS3G.json",
+    "bytes": 1461,
+    "sha256": "a3139b25e6caffb011f98dda8a083fc9b35a26f2e74befc16e39b621acf3e3a8",
+    "profileId": "FISE_GS3G_v1",
+    "manufacturer": "FISE",
+    "model": "GS3G",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Google_Pixel_2.json",
+    "bytes": 369,
+    "sha256": "6af6aa727ae893e6060f0d09fe70ac4e9d959d6a7b0f4160a363d7518c9d2065",
+    "profileId": "Google_Pixel_2_v1",
+    "manufacturer": "Google",
+    "model": "Pixel 2",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Google_Pixel_7a.json",
+    "bytes": 371,
+    "sha256": "ddf0f657716bc85a510d14248a7e1e5ff6069a4290378d37bf77c6a87cf9998c",
+    "profileId": "Google_Pixel_7a_v1",
+    "manufacturer": "Google",
+    "model": "Pixel 7a",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HONOR_CMA-LX3.json",
+    "bytes": 3307,
+    "sha256": "e934469fd203c783a80b6bf41dc0e34d9dcfc1fa9868b6b6906915045b040367",
+    "profileId": "HONOR_CMA-LX3_v1",
+    "manufacturer": "HONOR",
+    "model": "CMA-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HONOR_RMO-NX3.json",
+    "bytes": 3337,
+    "sha256": "d801f1b4cf0f43b03c1a3ca59381cb922e284650bc328c7e4595659f93cb2b7b",
+    "profileId": "HONOR_RMO-NX3_v1",
+    "manufacturer": "HONOR",
+    "model": "RMO-NX3",
+    "androidSdk": 33,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HONOR_TFY-LX3.json",
+    "bytes": 367,
+    "sha256": "4ad34d6a8c813990c63de5b65a8d945bbacb17abbe133a5c199a9519aa518100",
+    "profileId": "HONOR_TFY-LX3_v1",
+    "manufacturer": "HONOR",
+    "model": "TFY-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HONOR_VNA-LX3.json",
+    "bytes": 367,
+    "sha256": "dd6d40287b6bad9bf40044d6b38f64657bb48b799cfb7eef46d8bb7908225771",
+    "profileId": "HONOR_VNA-LX3_v1",
+    "manufacturer": "HONOR",
+    "model": "VNA-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HONOR_VNE-LX3.json",
+    "bytes": 3337,
+    "sha256": "20f866af0930631ee9b1fd108d1ed57329c31bfb5efe1ab4dd93f3171a9ab32c",
+    "profileId": "HONOR_VNE-LX3_v1",
+    "manufacturer": "HONOR",
+    "model": "VNE-LX3",
+    "androidSdk": 34,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_AGS2-W19.json",
+    "bytes": 1186,
+    "sha256": "3ee362b98bf9584fb12c48e10d0457d20c0d8cb55cb49484520171c32604c872",
+    "profileId": "HUAWEI_AGS2-W19_v1",
+    "manufacturer": "HUAWEI",
+    "model": "AGS2-W19",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_ANA-LX4.json",
+    "bytes": 4383,
+    "sha256": "762753cf45e1ccc3921be79c62bbec57008da7e45ce1ec1d5c20ff4805bee774",
+    "profileId": "HUAWEI_ANA-LX4_v1",
+    "manufacturer": "HUAWEI",
+    "model": "ANA-LX4",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_ART-L28.json",
+    "bytes": 1184,
+    "sha256": "767a148472eff4f35a07e90a3c76ad6e49808420081c526aae486732da549d63",
+    "profileId": "HUAWEI_ART-L28_v1",
+    "manufacturer": "HUAWEI",
+    "model": "ART-L28",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_DUB-LX3.json",
+    "bytes": 2105,
+    "sha256": "3f5efa78608d21b0f5fd362fa59d572e00016d1c883195841c875f167562b098",
+    "profileId": "HUAWEI_DUB-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "DUB-LX3",
+    "androidSdk": 27,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_EVE-LX3.json",
+    "bytes": 401,
+    "sha256": "6491b93766a93b7f2d115bd2d272343ad3934ee9e41d1bc7225e02b5bc11fdee",
+    "profileId": "HUAWEI_EVE-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "EVE-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_FIG-LX3.json",
+    "bytes": 1184,
+    "sha256": "a291e456913edb5fa73c34ea478471fd1978dcccc75b7e274922171779c63a45",
+    "profileId": "HUAWEI_FIG-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "FIG-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_FLA-LX3.json",
+    "bytes": 3319,
+    "sha256": "538afc201cd56cd2dc316f0fdf3c469680aa502aed3ea19a886d44a3f7a45dff",
+    "profileId": "HUAWEI_FLA-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "FLA-LX3",
+    "androidSdk": 28,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_FRL-L23.json",
+    "bytes": 1184,
+    "sha256": "9187ba8caafde21b616cdb67e9cce7c4e0c972864280d3911f409ae60b6f1488",
+    "profileId": "HUAWEI_FRL-L23_v1",
+    "manufacturer": "HUAWEI",
+    "model": "FRL-L23",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_JKM-LX3.json",
+    "bytes": 2004,
+    "sha256": "cb8cfbc9075beb838246e091b4069096045f8790adc549f3714f5d2e9c93f59b",
+    "profileId": "HUAWEI_JKM-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "JKM-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_JNY-LX1.json",
+    "bytes": 745,
+    "sha256": "14875ddc93c5c887a82f66daa7198ae59a9546e5b928cd9241f7a24e06ffcf0b",
+    "profileId": "HUAWEI_JNY-LX1_v1",
+    "manufacturer": "HUAWEI",
+    "model": "JNY-LX1",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_JNY-LX2.json",
+    "bytes": 745,
+    "sha256": "3d5e0c592e0e8e0367d8e8d2cd06fa5cd1798ee7f383aad78e546bc0d9b2df8d",
+    "profileId": "HUAWEI_JNY-LX2_v1",
+    "manufacturer": "HUAWEI",
+    "model": "JNY-LX2",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_MAR-LX3A.json",
+    "bytes": 4173,
+    "sha256": "d7df619b1ed423330614cab3d2a5cb854ec6f2096b9818bd3a3267e4a365d80c",
+    "profileId": "HUAWEI_MAR-LX3A_v1",
+    "manufacturer": "HUAWEI",
+    "model": "MAR-LX3A",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_MAR-LX3Bm.json",
+    "bytes": 4113,
+    "sha256": "acd5d2710154b4c68897065ff6908f6e5714dee5c72f03905c515d4db5dfd51f",
+    "profileId": "HUAWEI_MAR-LX3Bm_v1",
+    "manufacturer": "HUAWEI",
+    "model": "MAR-LX3Bm",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_NAM.json",
+    "bytes": 2886,
+    "sha256": "0fdc145a43efd6f7585a33bf2f3ac8771c123267026f34d4a8a8b5b3f0889463",
+    "profileId": "HUAWEI_NAM_v1",
+    "manufacturer": "HUAWEI",
+    "model": "NAM",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_NEN-LX3.json",
+    "bytes": 369,
+    "sha256": "a5bf9a8c082fa7255e86bc1ca255f5cdec065d0f43118344384f3be78b453535",
+    "profileId": "HUAWEI_NEN-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "NEN-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_PAR-LX9.json",
+    "bytes": 3256,
+    "sha256": "8ee93e76a90fa60d7c984b3817aa94d818e1c4c0dcba771519e0c9625b805c66",
+    "profileId": "HUAWEI_PAR-LX9_v1",
+    "manufacturer": "HUAWEI",
+    "model": "PAR-LX9",
+    "androidSdk": 28,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_PPA-LX3.json",
+    "bytes": 1184,
+    "sha256": "e1d61a55374bc0a767fb3335ba0b29767abe0ddb07bd033493ff56da73c7f772",
+    "profileId": "HUAWEI_PPA-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "PPA-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_SNE-LX3.json",
+    "bytes": 2095,
+    "sha256": "887795502c4bed16d3914c22424c2296a9cf6f3df427eaf5efd40228877d3d8f",
+    "profileId": "HUAWEI_SNE-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "SNE-LX3",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_STK-L22.json",
+    "bytes": 745,
+    "sha256": "89b504a8caaf2158abb7ea3443ec30ff808cede40b49f6c1854cf5c9947e863d",
+    "profileId": "HUAWEI_STK-L22_v1",
+    "manufacturer": "HUAWEI",
+    "model": "STK-L22",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_STK-LX3.json",
+    "bytes": 1575,
+    "sha256": "28473dd1ba6024e723b244227003a3880ed13c94ef21ef72fc1fd80a4a51d5d9",
+    "profileId": "HUAWEI_STK-LX3_v1",
+    "manufacturer": "HUAWEI",
+    "model": "STK-LX3",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_VOG-L04.json",
+    "bytes": 2206,
+    "sha256": "dba2577a55a2c9dcd5737c6de93b2dcb022a247aed0a61518e3fb3672c6d0986",
+    "profileId": "HUAWEI_VOG-L04_v1",
+    "manufacturer": "HUAWEI",
+    "model": "VOG-L04",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/HUAWEI_YAL-L21.json",
+    "bytes": 3304,
+    "sha256": "7895253abe720321c683efb23f14723f1ae21386c3ff2664445eff1ecf6357cd",
+    "profileId": "HUAWEI_YAL-L21_v1",
+    "manufacturer": "HUAWEI",
+    "model": "YAL-L21",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Hisense_Hisense_E50.json",
+    "bytes": 1710,
+    "sha256": "00b0223c46b87ca5e46714ddbba2aef9fa6db8cfb13795b371adbf3659359455",
+    "profileId": "Hisense_Hisense_E50_v1",
+    "manufacturer": "Hisense",
+    "model": "Hisense E50",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/INFINIX_Infinix_X669.json",
+    "bytes": 1148,
+    "sha256": "1aa9252f10fd78ba55a98e0616eac7b140189f7d2754e6b9ce7dc0e1f52de0ca",
+    "profileId": "INFINIX_Infinix_X669_v1",
+    "manufacturer": "INFINIX",
+    "model": "Infinix X669",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/INFINIX_MOBILITY_LIMITED_Infinix_X6512.json",
+    "bytes": 1224,
+    "sha256": "055967ac5f3f16d36590497662b2b6ca79990031d7cbc8e2f31ab4fe4ff1d04e",
+    "profileId": "INFINIX_MOBILITY_LIMITED_Infinix_X6512_v1",
+    "manufacturer": "INFINIX MOBILITY LIMITED",
+    "model": "Infinix X6512",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/LENOVO_Lenovo_YT-X705F.json",
+    "bytes": 3925,
+    "sha256": "0dc7e1153c71ab09e26a1da4828995d7a5ad5b1326e8bc7914d8be70fa8d48f8",
+    "profileId": "LENOVO_Lenovo_YT-X705F_v1",
+    "manufacturer": "LENOVO",
+    "model": "Lenovo YT-X705F",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/LGE_LM-G710.json",
+    "bytes": 363,
+    "sha256": "806a0e0b1975a61d3a6e7e349778dc95c55cdef5d1944d6eb8dc16d2141a8a1b",
+    "profileId": "LGE_LM-G710_v1",
+    "manufacturer": "LGE",
+    "model": "LM-G710",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/LGE_LM-Q710.FG.json",
+    "bytes": 369,
+    "sha256": "9007e3c05b0cf3059435df49c911ab2a124ee64b145a52441f711e9d94bb78c4",
+    "profileId": "LGE_LM-Q710.FG_v1",
+    "manufacturer": "LGE",
+    "model": "LM-Q710.FG",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/LGE_Nexus_5X.json",
+    "bytes": 1586,
+    "sha256": "de050bd9ca5aa29f083505735d29b902f08f378e992d6251a38b85c897f93052",
+    "profileId": "LGE_Nexus_5X_v1",
+    "manufacturer": "LGE",
+    "model": "Nexus 5X",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2015.json",
+    "bytes": 429,
+    "sha256": "7ae6fea1e23f49f346e1f5241282e10e83588f3687c52ade41811dc182db72d0",
+    "profileId": "OPPO_CPH2015_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2015",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2127.json",
+    "bytes": 429,
+    "sha256": "66a2519dfe90cf277480f70b2dfd34687dbebf9f7c59786dd49b005f41455393",
+    "profileId": "OPPO_CPH2127_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2127",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2239.json",
+    "bytes": 429,
+    "sha256": "02e79351242929bdea014a88cc00dab55d3c4f57d3e9c980da3261452d6a6795",
+    "profileId": "OPPO_CPH2239_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2239",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2269.json",
+    "bytes": 429,
+    "sha256": "72cee7f5e278e5e4b04a018c351cb920ffb1c17d9723f886950239381aff3db5",
+    "profileId": "OPPO_CPH2269_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2269",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2387.json",
+    "bytes": 811,
+    "sha256": "0582db5648d8a3e87143309be2d06534a98bfcfd594c420cb88b18e0b3bac822",
+    "profileId": "OPPO_CPH2387_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2387",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OPPO_CPH2477.json",
+    "bytes": 811,
+    "sha256": "899d8338090167249456a3da2e92b3b5ea7dbefe669aab45ec8106ded2163bdf",
+    "profileId": "OPPO_CPH2477_v1",
+    "manufacturer": "OPPO",
+    "model": "CPH2477",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/OnePlus_BE2011.json",
+    "bytes": 433,
+    "sha256": "bf85eaa70f2322f88da85d16581cee70c183ae82b489db3e821c8c2ae3a4c179",
+    "profileId": "OnePlus_BE2011_v1",
+    "manufacturer": "OnePlus",
+    "model": "BE2011",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Samsung_Galaxy_Tab_S8_Ultra.json",
+    "bytes": 281,
+    "sha256": "60d2196ab5f5ddf6754a85e1299ff7e3ea8c5a41b7771fb25f813bb08d54b118",
+    "profileId": "Samsung_Galaxy_Tab_S8_Ultra_v1",
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S8 Ultra",
+    "androidSdk": null,
+    "sections": [
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/TCL_9029Z.json",
+    "bytes": 386,
+    "sha256": "033b296f699f35df542fee77adb6532bc9f56a6ca737c0d27894e10d40861287",
+    "profileId": "TCL_9029Z_v1",
+    "manufacturer": "TCL",
+    "model": "9029Z",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/TCL_T790B.json",
+    "bytes": 359,
+    "sha256": "b93e7290c279859aae19187af7c754c3340c56697c9beba9e6882a0b58d6730c",
+    "profileId": "TCL_T790B_v1",
+    "manufacturer": "TCL",
+    "model": "T790B",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/TCL_T799B.json",
+    "bytes": 359,
+    "sha256": "3a3b021377751ad0d2c4a5f6dae1d13d892b524ff054df815cbfdf92d618fb78",
+    "profileId": "TCL_T799B_v1",
+    "manufacturer": "TCL",
+    "model": "T799B",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/XGODY_K800Y.json",
+    "bytes": 363,
+    "sha256": "fa6396bb4e466fe163df7e5f7eba29df3792ed7d03fb0b7cad116d9fb00c66cf",
+    "profileId": "XGODY_K800Y_v1",
+    "manufacturer": "XGODY",
+    "model": "K800Y",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_21061119AL.json",
+    "bytes": 533,
+    "sha256": "8a4554daad67cb16a8aebf94333869835edebf63a6ecdc60de9c5697873cab39",
+    "profileId": "Xiaomi_21061119AL_v1",
+    "manufacturer": "Xiaomi",
+    "model": "21061119AL",
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_2201116SG.json",
+    "bytes": 531,
+    "sha256": "3cf49f930daa844b2ffd801362306db570a5b74de477624c0c0cce47b877bab7",
+    "profileId": "Xiaomi_2201116SG_v1",
+    "manufacturer": "Xiaomi",
+    "model": "2201116SG",
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_M2006C3MG.json",
+    "bytes": 299,
+    "sha256": "0a3e62ce77fee510cb0f55294da5b77648fb18a13783ed0f1bfe70bcd85d609c",
+    "profileId": "Xiaomi_M2006C3MG_v1",
+    "manufacturer": "Xiaomi",
+    "model": "M2006C3MG",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_M2006C3MII.json",
+    "bytes": 537,
+    "sha256": "2539db72f3713c615d3ba07c8acf1adc13102f5799f78a92dc47b1387eeb574d",
+    "profileId": "Xiaomi_M2006C3MII_v1",
+    "manufacturer": "Xiaomi",
+    "model": "M2006C3MII",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_MI_8.json",
+    "bytes": 1482,
+    "sha256": "0b7daf705d04acdf4b5c8753e9a4958c9b849e8d44365af7a9d678c781a572fa",
+    "profileId": "Xiaomi_MI_8_v1",
+    "manufacturer": "Xiaomi",
+    "model": "MI 8",
+    "androidSdk": null,
+    "sections": [
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_Mi_9_Lite.json",
+    "bytes": 535,
+    "sha256": "8dd138d28a62e2dcbbd93b37478d4f60c6bb0c3833c31366decab1feb2a84bec",
+    "profileId": "Xiaomi_Mi_9_Lite_v1",
+    "manufacturer": "Xiaomi",
+    "model": "Mi 9 Lite",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/Xiaomi_Redmi_Note_8_Pro.json",
+    "bytes": 545,
+    "sha256": "cdef4af23a804b2bb6b40b8ed3c97f606a8abfa05d27e993af206ad830f51a51",
+    "profileId": "Xiaomi_Redmi_Note_8_Pro_v1",
+    "manufacturer": "Xiaomi",
+    "model": "Redmi Note 8 Pro",
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_9045.json",
+    "bytes": 621,
+    "sha256": "0e3a6a5db81138806c24880fe0653221781f626e94eb051caf186e0b8481b3ae",
+    "profileId": "ZTE_ZTE_9045_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE 9045",
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_A7030.json",
+    "bytes": 253,
+    "sha256": "c03f32f121194245479426ca5c08ac0e06fd3cb879151c9bb45255ed2229de72",
+    "profileId": "ZTE_ZTE_A7030_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE A7030",
+    "androidSdk": null,
+    "sections": [
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_Blade_A51.json",
+    "bytes": 631,
+    "sha256": "e52a2c58465757640a81bd8ea471346348edba6f314314f75b63232d15adf33a",
+    "profileId": "ZTE_ZTE_Blade_A51_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE Blade A51",
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_Blade_A52_Lite.json",
+    "bytes": 271,
+    "sha256": "ac82b49db7ba276a40f7c5106d564f8e31946ae65322d26c5659793625f0d809",
+    "profileId": "ZTE_ZTE_Blade_A52_Lite_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE Blade A52 Lite",
+    "androidSdk": null,
+    "sections": [
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_Blade_A53.json",
+    "bytes": 375,
+    "sha256": "53ff5a3eea275477cf8cdb9ed972b83b0c499f6e6fd355c2191e8c64e73d945e",
+    "profileId": "ZTE_ZTE_Blade_A53_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE Blade A53",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_Blade_L220.json",
+    "bytes": 377,
+    "sha256": "87c80fb988f4b93e9c536453aa7dfaa6dba8d4428dfad62f48b63e7b46d5f941",
+    "profileId": "ZTE_ZTE_Blade_L220_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE Blade L220",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/ZTE_ZTE_Blade_V10.json",
+    "bytes": 325,
+    "sha256": "7d83a6360ed131986783827238ec866e9d0c5b9bec614d0bf9a7f8d0bedd6140",
+    "profileId": "ZTE_ZTE_Blade_V10_v1",
+    "manufacturer": "ZTE",
+    "model": "ZTE Blade V10",
+    "androidSdk": null,
+    "sections": [
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/alps_A73.json",
+    "bytes": 1621,
+    "sha256": "8ce6adabd285fc47a3615015dc0aae432c5a1d8df3466f9da25271faca6ae3e0",
+    "profileId": "alps_A73_v1",
+    "manufacturer": "alps",
+    "model": "A73",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/asus_ASUS_Z01QD.json",
+    "bytes": 1701,
+    "sha256": "2d6ed5e88e87e03474d2940e23782336327bc8361db787836a061d7625344172",
+    "profileId": "asus_ASUS_Z01QD_v1",
+    "manufacturer": "asus",
+    "model": "ASUS_Z01QD",
+    "androidSdk": 25,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/generic_android.json",
+    "bytes": 1005,
+    "sha256": "0390d3fe272f0b90364267b4a394b4f61ac624573f2af24dd35dc32723be4514",
+    "profileId": "generic_android_v1",
+    "manufacturer": "(familia/generico)",
+    "model": null,
+    "androidSdk": null,
+    "sections": [
+      "standardBatteryWhitelist",
+      "installedApps",
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/index.json",
+    "bytes": 23514,
+    "sha256": "c4ac6cf7d32466fa0db98861f10e13b6c8a27fc00d434acb5d69106f7ffed610",
+    "profileId": null,
+    "manufacturer": "(familia/generico)",
+    "model": null,
+    "androidSdk": null,
+    "sections": []
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e20.json",
+    "bytes": 397,
+    "sha256": "4d7af27d7024ca04f082982563f089779ae89b78e61346806352c58ad10730da",
+    "profileId": "motorola_moto_e20_v1",
+    "manufacturer": "motorola",
+    "model": "moto e20",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e22.json",
+    "bytes": 375,
+    "sha256": "6e9a2df4a6e6cbddc54f7704ecb5f37281c9a3ea1cafafb1dff61cf8d485f6c8",
+    "profileId": "motorola_moto_e22_v1",
+    "manufacturer": "motorola",
+    "model": "moto e22",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e22i.json",
+    "bytes": 399,
+    "sha256": "aca73bcb86af74768eb22386804cc98e865c3a061e06f33f06a4d8cd13a3c3d8",
+    "profileId": "motorola_moto_e22i_v1",
+    "manufacturer": "motorola",
+    "model": "moto e22i",
+    "androidSdk": 31,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e5.json",
+    "bytes": 522,
+    "sha256": "3f63e7e7d8eac26a12a185372bf620f32133124c75369bb212d52a10e0adc70b",
+    "profileId": "motorola_moto_e5_v1",
+    "manufacturer": "motorola",
+    "model": "moto e5",
+    "androidSdk": 26,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e6s.json",
+    "bytes": 524,
+    "sha256": "2e270cfc82c1c7d7fee769b111932fd15dff2694caf30ab34d1923608a996a11",
+    "profileId": "motorola_moto_e6s_v1",
+    "manufacturer": "motorola",
+    "model": "moto e6s",
+    "androidSdk": 28,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e_6i_.json",
+    "bytes": 378,
+    "sha256": "ad75dcc3d5cc157bab9cbf396987ca777d01dde523107751889cff4f8efed07f",
+    "profileId": "motorola_moto_e_6i_v1",
+    "manufacturer": "motorola",
+    "model": "moto e(6i)",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e_7_.json",
+    "bytes": 503,
+    "sha256": "a23691fe87316d17eeee8eabcfa3a9405b48ed9349fa1d01ec53dce722b54544",
+    "profileId": "motorola_moto_e_7_v1",
+    "manufacturer": "motorola",
+    "model": "moto e(7)",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_e_7_plus.json",
+    "bytes": 535,
+    "sha256": "417472cc803c4f760e3f4557ced7c54f7a77c7b63bd14fd110c42641217b763c",
+    "profileId": "motorola_moto_e_7_plus_v1",
+    "manufacturer": "motorola",
+    "model": "moto e(7) plus",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g200_5G.json",
+    "bytes": 405,
+    "sha256": "c724e14c6567e7668adbc6216e7c0d58e128ba21ae8e3d8576717aa2ff4ee592",
+    "profileId": "motorola_moto_g200_5G_v1",
+    "manufacturer": "motorola",
+    "model": "moto g200 5G",
+    "androidSdk": 31,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g22.json",
+    "bytes": 375,
+    "sha256": "bc65eef5755abae1a8f705a5c3969d5aa5c5c918d96263c4483fdedeb2e65375",
+    "profileId": "motorola_moto_g22_v1",
+    "manufacturer": "motorola",
+    "model": "moto g22",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g41.json",
+    "bytes": 375,
+    "sha256": "407c8c0d3d381d66cda5b2f65a6b70850373aefb9dd4b8b38a69d6ffc74c5755",
+    "profileId": "motorola_moto_g41_v1",
+    "manufacturer": "motorola",
+    "model": "moto g41",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g51_5G.json",
+    "bytes": 467,
+    "sha256": "408a55c3c66f6229a893822194785f1c8e7463ed7607b60a060a435f6ccfe54a",
+    "profileId": "motorola_moto_g51_5G_v1",
+    "manufacturer": "motorola",
+    "model": "moto g51 5G",
+    "androidSdk": 31,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "foregroundNotification"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g71_5G.json",
+    "bytes": 381,
+    "sha256": "8a2b1387bf136a5f2d459849b4760bb98c2738f27726d224af96e67b8e6e89dc",
+    "profileId": "motorola_moto_g71_5G_v1",
+    "manufacturer": "motorola",
+    "model": "moto g71 5G",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_20_.json",
+    "bytes": 378,
+    "sha256": "3efd9d8f081276474060b41f4c9260ec28944924d95f61362b75fbd51682cda7",
+    "profileId": "motorola_moto_g_20_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(20)",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_30_.json",
+    "bytes": 400,
+    "sha256": "0a3391330bffd4e3d10b22bbf77ee5da3f3463843db3c4ba6abb119ace2aa5f5",
+    "profileId": "motorola_moto_g_30_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(30)",
+    "androidSdk": 31,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_50_5G.json",
+    "bytes": 384,
+    "sha256": "78da43bf1ec4d4716608893bcf571d1471ae1c7432723d4da979c17066364525",
+    "profileId": "motorola_moto_g_50_5G_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(50) 5G",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_60_.json",
+    "bytes": 378,
+    "sha256": "861d4cf2133b30c0c8f0c75377a819c8d68344c1ee209d4a5c67d866e4de71be",
+    "profileId": "motorola_moto_g_60_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(60)",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_60_s.json",
+    "bytes": 403,
+    "sha256": "fcb101a1e8f800b1cd5024e922a536439afe7de7b5264feb6ad5e767ea59b4d6",
+    "profileId": "motorola_moto_g_60_s_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(60)s",
+    "androidSdk": 31,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_6_plus.json",
+    "bytes": 535,
+    "sha256": "2f2bfab9f991eee59bf5616889be2a102abab948db937572b0fda3cf8112ec8c",
+    "profileId": "motorola_moto_g_6_plus_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(6) plus",
+    "androidSdk": 28,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_7_plus.json",
+    "bytes": 408,
+    "sha256": "d924a8e8b6e64203966ce8f4c78e1da805c1a2e7a2f1356d98d3a611ff7f7352",
+    "profileId": "motorola_moto_g_7_plus_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(7) plus",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_7_power.json",
+    "bytes": 388,
+    "sha256": "56ebadd430b20011475e44e2b79fa46483e222806e673e7da84a98f08b27ab3d",
+    "profileId": "motorola_moto_g_7_power_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(7) power",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_8_play.json",
+    "bytes": 535,
+    "sha256": "60bcc7ad5bec3ac4bc32f71dc8d7a8364286983ba363a53af45a5141ed5d18ec",
+    "profileId": "motorola_moto_g_8_play_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(8) play",
+    "androidSdk": 29,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_8_power_lite.json",
+    "bytes": 398,
+    "sha256": "f8fe66491b39e9076a82ada5b9c2b18ba9d2790bb03c9b51aa7db8fa326472a5",
+    "profileId": "motorola_moto_g_8_power_lite_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(8) power lite",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_9_play.json",
+    "bytes": 386,
+    "sha256": "5f78a675f91065cee47714af728b70cc616b237f33a9284945dca52210dd9942",
+    "profileId": "motorola_moto_g_9_play_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(9) play",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_9_power.json",
+    "bytes": 388,
+    "sha256": "c332c7e95038a2bbb0eabaab79fa101506387860452757b0331f547396eeab71",
+    "profileId": "motorola_moto_g_9_power_v1",
+    "manufacturer": "motorola",
+    "model": "moto g(9) power",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_play_2021_.json",
+    "bytes": 415,
+    "sha256": "ae6a09bea594870afdf96658c5be77e066fe28037ec2beb036c5195717000d0e",
+    "profileId": "motorola_moto_g_play_2021_v1",
+    "manufacturer": "motorola",
+    "model": "moto g play (2021)",
+    "androidSdk": 30,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_power_2022_.json",
+    "bytes": 395,
+    "sha256": "ce02276832a7f70060d1254bc727e31a1bb06fadce1a48dc7ce7f60ced5ccafe",
+    "profileId": "motorola_moto_g_power_2022_v1",
+    "manufacturer": "motorola",
+    "model": "moto g power (2022)",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_pure.json",
+    "bytes": 381,
+    "sha256": "a9aed6c8a592cbd47708445426f6bd751bb1d4d8279f3aefbf4906987ccdf33c",
+    "profileId": "motorola_moto_g_pure_v1",
+    "manufacturer": "motorola",
+    "model": "moto g pure",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_moto_g_stylus_5G.json",
+    "bytes": 391,
+    "sha256": "b191cf975e30747ed86b0285bc9abacedc700ec62fbfe9a1216c7958b497e433",
+    "profileId": "motorola_moto_g_stylus_5G_v1",
+    "manufacturer": "motorola",
+    "model": "moto g stylus 5G",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/motorola_motorola_one_fusion.json",
+    "bytes": 397,
+    "sha256": "b3eafdece6f445aa6e24c722e9a73c67a8d2e38adfc071779a234cde06fd09ba",
+    "profileId": "motorola_motorola_one_fusion_v1",
+    "manufacturer": "motorola",
+    "model": "motorola one fusion",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/poco_family.json",
+    "bytes": 151,
+    "sha256": "81bbcb908b746590616e68db7f0402ac37b065d95d1698c8c57873ba523d4532",
+    "profileId": "poco_family_v1",
+    "manufacturer": "POCO",
+    "model": null,
+    "androidSdk": null,
+    "sections": []
+  },
+  {
+    "profile_name": "permission_profiles/redmi_family.json",
+    "bytes": 153,
+    "sha256": "e145ce02827d5867e86124208aa0a075417952c7f6a356e21f8b878e6be6da84",
+    "profileId": "redmi_family_v1",
+    "manufacturer": "Redmi",
+    "model": null,
+    "androidSdk": null,
+    "sections": []
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A032M.json",
+    "bytes": 373,
+    "sha256": "ba27cf713bd676874d6854c8c816df845670bb27f37654cde355051dfcd64b47",
+    "profileId": "samsung_SM-A032M_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A032M",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A115M.json",
+    "bytes": 373,
+    "sha256": "14a003d568e00322db26ff7c8f9a0f563849017a3485e5109d6dbe830fbafb46",
+    "profileId": "samsung_SM-A115M_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A115M",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A125M.json",
+    "bytes": 373,
+    "sha256": "b0d5d33fa0242840179e6eb137aab7c129f70bfd08fbae8d9696b8b6b234b0dd",
+    "profileId": "samsung_SM-A125M_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A125M",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A205G.json",
+    "bytes": 373,
+    "sha256": "cdcba81506eecca111495348d29c2755d12bc1d431e9d75573fd791c93bb26d5",
+    "profileId": "samsung_SM-A205G_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A205G",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A217M.json",
+    "bytes": 373,
+    "sha256": "12d51185b7d860b6998aae77f64a83311ef4dfb532b164a912af918c32d26f8c",
+    "profileId": "samsung_SM-A217M_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A217M",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-A720F.json",
+    "bytes": 411,
+    "sha256": "b19e2af74a752cc8463eb93d93e20eee0162518a8a3f14e041ae3fb254bfbfef",
+    "profileId": "samsung_SM-A720F_v1",
+    "manufacturer": "samsung",
+    "model": "SM-A720F",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-G9650.json",
+    "bytes": 373,
+    "sha256": "c067cba82529e842e7638e4abf59e7f0e82cd73cd50940f137e1cd02294b5d5e",
+    "profileId": "samsung_SM-G9650_v1",
+    "manufacturer": "samsung",
+    "model": "SM-G9650",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-G973U.json",
+    "bytes": 373,
+    "sha256": "0c7d09f9b80ede6a6416ad6f8eea1759dbc51417e786a04157a9118d35ba120a",
+    "profileId": "samsung_SM-G973U_v1",
+    "manufacturer": "samsung",
+    "model": "SM-G973U",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-G975F.json",
+    "bytes": 373,
+    "sha256": "542cfd81c7f0a044a1c8236d57320e0c4e9293b0e2918f140808132c1f0ddaee",
+    "profileId": "samsung_SM-G975F_v1",
+    "manufacturer": "samsung",
+    "model": "SM-G975F",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-G975U.json",
+    "bytes": 373,
+    "sha256": "da49ef9ab8b375523ac444277947c0da70111f13cefe83a1626f2a1749f8f4bc",
+    "profileId": "samsung_SM-G975U_v1",
+    "manufacturer": "samsung",
+    "model": "SM-G975U",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-G998U.json",
+    "bytes": 373,
+    "sha256": "a93958a17bf0f9dc125621e74944d613b0b873f0a50a89ad5cfd590d67b822bf",
+    "profileId": "samsung_SM-G998U_v1",
+    "manufacturer": "samsung",
+    "model": "SM-G998U",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-S731U.json",
+    "bytes": 491,
+    "sha256": "379e1d0c138c6e1a4eae91b4600eaa8e66831fc839440ace18135b8be5a61105",
+    "profileId": "samsung_SM-S731U_v1",
+    "manufacturer": "samsung",
+    "model": "SM-S731U",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/samsung_SM-S908U.json",
+    "bytes": 373,
+    "sha256": "c7169da8ea4d86c1a5e2ebe3e93d36a8f449a49f2f80c9935b7c3c28f2d022ff",
+    "profileId": "samsung_SM-S908U_v1",
+    "manufacturer": "samsung",
+    "model": "SM-S908U",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_V1838A.json",
+    "bytes": 2308,
+    "sha256": "743701ec621f50431b5032738c2105dff7d3f5c535beb71747b96f3bdb2e05fc",
+    "profileId": "vivo_V1838A_v1",
+    "manufacturer": "vivo",
+    "model": "V1838A",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_V2057.json",
+    "bytes": 361,
+    "sha256": "b3cebc52f2f089d21ca7b2cd039e17f09268945e8e456eef47b80f5c782c4661",
+    "profileId": "vivo_V2057_v1",
+    "manufacturer": "vivo",
+    "model": "V2057",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_V2118.json",
+    "bytes": 361,
+    "sha256": "62329fe4eccfa817d786712b64dbc8aae0a2f1557c333e632f53b2a65da18206",
+    "profileId": "vivo_V2118_v1",
+    "manufacturer": "vivo",
+    "model": "V2118",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_V2206.json",
+    "bytes": 361,
+    "sha256": "2706a265c66a2802639a4cda76eb66e6ee6c732169a80d1758a21c2966e3e62f",
+    "profileId": "vivo_V2206_v1",
+    "manufacturer": "vivo",
+    "model": "V2206",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery",
+      "autoStart"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_V2318A.json",
+    "bytes": 2370,
+    "sha256": "09ff5f2b50926b020e38dac81f12979bc0248b6d5c5b8d50cbb1b5bb6bc8c688",
+    "profileId": "vivo_V2318A_v1",
+    "manufacturer": "vivo",
+    "model": "V2318A",
+    "androidSdk": null,
+    "sections": [
+      "vendorBattery"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/vivo_generic.json",
+    "bytes": 5871,
+    "sha256": "309b630ad5b113c2fe356d8031eca17fc3c7bbb661e3d93c89bb8b43a4426fa3",
+    "profileId": "vivo_generic_v1",
+    "manufacturer": "vivo",
+    "model": null,
+    "androidSdk": null,
+    "sections": [
+      "installedApps",
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  },
+  {
+    "profile_name": "permission_profiles/xiaomi_family.json",
+    "bytes": 4866,
+    "sha256": "049d3f5ba11edfd09cd8744f326f4999ddfceee30e749e0aeafb1996843049f1",
+    "profileId": "xiaomi_family_v1",
+    "manufacturer": "Xiaomi",
+    "model": null,
+    "androidSdk": null,
+    "sections": [
+      "installedApps",
+      "vendorBattery",
+      "autoStart",
+      "backgroundPopup"
+    ]
+  }
+]

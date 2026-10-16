@@ -1,0 +1,77 @@
+[
+  {
+    "label": "12_recolector_cola",
+    "exit": 0,
+    "evidence_id": "ev_4cbc2ecc4728b466d570aaeb03ff4cc3fd6cbc943f39e18d34d80229c01dc8e3",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  },
+  {
+    "label": "13_envio_lotes",
+    "exit": 0,
+    "evidence_id": "ev_69ae4de7afcf709bf05dbfce9ef9325b887a425bded5a53fdbc154af6417182e",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  },
+  {
+    "label": "14_transporte_lotes",
+    "exit": 0,
+    "evidence_id": "ev_1e5cf5a4cd8ad634713c68fac68eb849964eba32aad69376879d63c566fc64ec",
+    "operation": "inspect_android_method",
+    "keys": [
+      "evidence_id",
+      "subject",
+      "provider",
+      "analysis_profile",
+      "predicate_type",
+      "operation",
+      "parameters",
+      "raw_result",
+      "normalized_result",
+      "confidence",
+      "authority",
+      "environment",
+      "limitations",
+      "relationship_coverage",
+      "locations",
+      "evidence_links"
+    ],
+    "observations": null
+  }
+]

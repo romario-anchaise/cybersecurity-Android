@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_429d8070ffd5ccd30e0483d6debe30a07a4a3dfc65b29d0c11fbb5faaad18ba6",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "lyr.stable.runtime.keepalive.BootReceiver",
+    "method_name": "onReceive"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-52038c24ae3295551f7d3e68d4a655d8\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":4223664128,\"java_version\":\"21.0.12.1\",\"available_processors\":12,\"engine_reported_version\":\"0.7.1\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-52038c24ae3295551f7d3e68d4a655d8\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-52038c24ae3295551f7d3e68d4a655d8\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":1557,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "lyr.stable.runtime.keepalive.BootReceiver"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"methods\":[{\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\"},{\"signature\":\"onReceive(android.content.Context, android.content.Intent): void\",\"def_pos\":0,\"name\":\"onReceive\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Landroid/content/Intent;)V\"}],\"method_count\":2,\"inner_class_count\":0,\"inner_classes\":[],\"name\":\"BootReceiver\",\"full_name\":\"lyr.stable.runtime.keepalive.BootReceiver\",\"field_count\":0,\"fields\":[]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "lyr.stable.runtime.keepalive.BootReceiver",
+          "method_name": "onReceive",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"markers\":[],\"mode\":\"java\",\"full_name\":\"lyr.stable.runtime.keepalive.BootReceiver.onReceive\",\"class_name\":\"lyr.stable.runtime.keepalive.BootReceiver\",\"overload_index\":0,\"fell_back\":false,\"body\":\"/* JADX INFO: compiled from: r8-map-id-5347474c40041fa035618ae5fd6f249b536e43095feee62dfa1b0bceecef7771 */\\r\\n/* JADX INFO: loaded from: classes.dex */\\r\\npublic final class BootReceiver extends BroadcastReceiver {\\r\\n    @Override // android.content.BroadcastReceiver\\r\\n    public final void onReceive(Context context, Intent intent) {\\r\\n        String action;\\r\\n        if (intent \\u003d\\u003d null || (action \\u003d intent.getAction()) \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        try {\\r\\n            Context applicationContext \\u003d context.getApplicationContext();\\r\\n            boolean zK \\u003d p.k(applicationContext);\\r\\n            int i3 \\u003d 0;\\r\\n            boolean z2 \\u003d zK \\u0026\\u0026 MirrorApplication.d(applicationContext);\\r\\n            q.a(applicationContext, action);\\r\\n            boolean zEquals \\u003d \\\"android.intent.action.MY_PACKAGE_REPLACED\\\".equals(action);\\r\\n            Object obj \\u003d f.f3944a;\\r\\n            Context applicationContext2 \\u003d applicationContext.getApplicationContext();\\r\\n            if (applicationContext2 \\u003d\\u003d null) {\\r\\n                applicationContext2 \\u003d applicationContext;\\r\\n            }\\r\\n            try {\\r\\n                f.f3947d.execute(new a(applicationContext2, zEquals, i3));\\r\\n            } catch (Throwable th) {\\r\\n                Log.w(\\\"A11yBindLease\\\", \\\"arm startup grace rejected: \\\" + th.getMessage());\\r\\n            }\\r\\n            Log.i(\\\"ConnRecovery\\\", \\\"boot event action\\u003d\\\".concat(action));\\r\\n            if (z2 \\u0026\\u0026 (\\\"android.intent.action.BOOT_COMPLETED\\\".equals(action) || \\\"android.intent.action.LOCKED_BOOT_COMPLETED\\\".equals(action))) {\\r\\n                l.A(applicationContext);\\r\\n            }\\r\\n            if (!zK || z2) {\\r\\n                p.s(applicationContext, \\\"system:\\\".concat(action), false);\\r\\n            }\\r\\n            if (z2) {\\r\\n                ScreenMirrorService screenMirrorServiceU2 \\u003d ScreenMirrorService.U2();\\r\\n                if (screenMirrorServiceU2 \\u003d\\u003d null || !screenMirrorServiceU2.F5) {\\r\\n                    c.c(applicationContext);\\r\\n                }\\r\\n            }\\r\\n        } catch (Throwable th2) {\\r\\n            a0.a.p(th2, a0.a.k(\\\"boot event failed action\\u003d\\\", action, \\\" \\\"), \\\"ConnRecovery\\\");\\r\\n        }\\r\\n    }\",\"overload_count\":1,\"method_name\":\"onReceive\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "lyr.stable.runtime.keepalive.BootReceiver",
+    "method": {
+      "name": "onReceive",
+      "reported_signature": "onReceive(android.content.Context, android.content.Intent): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/content/Context;Landroid/content/Intent;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "/* JADX INFO: compiled from: r8-map-id-5347474c40041fa035618ae5fd6f249b536e43095feee62dfa1b0bceecef7771 */\r\n/* JADX INFO: loaded from: classes.dex */\r\npublic final class BootReceiver extends BroadcastReceiver {\r\n    @Override // android.content.BroadcastReceiver\r\n    public final void onReceive(Context context, Intent intent) {\r\n        String action;\r\n        if (intent == null || (action = intent.getAction()) == null) {\r\n            return;\r\n        }\r\n        try {\r\n            Context applicationContext = context.getApplicationContext();\r\n            boolean zK = p.k(applicationContext);\r\n            int i3 = 0;\r\n            boolean z2 = zK && MirrorApplication.d(applicationContext);\r\n            q.a(applicationContext, action);\r\n            boolean zEquals = \"android.intent.action.MY_PACKAGE_REPLACED\".equals(action);\r\n            Object obj = f.f3944a;\r\n            Context applicationContext2 = applicationContext.getApplicationContext();\r\n            if (applicationContext2 == null) {\r\n                applicationContext2 = applicationContext;\r\n            }\r\n            try {\r\n                f.f3947d.execute(new a(applicationContext2, zEquals, i3));\r\n            } catch (Throwable th) {\r\n                Log.w(\"A11yBindLease\", \"arm startup grace rejected: \" + th.getMessage());\r\n            }\r\n            Log.i(\"ConnRecovery\", \"boot event action=\".concat(action));\r\n            if (z2 && (\"android.intent.action.BOOT_COMPLETED\".equals(action) || \"android.intent.action.LOCKED_BOOT_COMPLETED\".equals(action))) {\r\n                l.A(applicationContext);\r\n            }\r\n            if (!zK || z2) {\r\n                p.s(applicationContext, \"system:\".concat(action), false);\r\n            }\r\n            if (z2) {\r\n                ScreenMirrorService screenMirrorServiceU2 = ScreenMirrorService.U2();\r\n                if (screenMirrorServiceU2 == null || !screenMirrorServiceU2.F5) {\r\n                    c.c(applicationContext);\r\n                }\r\n            }\r\n        } catch (Throwable th2) {\r\n            a0.a.p(th2, a0.a.k(\"boot event failed action=\", action, \" \"), \"ConnRecovery\");\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

