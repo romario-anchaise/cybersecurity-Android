@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="assets/cyber-lab-banner.gif" alt="Laboratorio de ingeniería inversa Android: banner animado de terminal con análisis estático y evidencia preservada" width="1200">
+</p>
+
+<p align="center">
+  <a href="Laboratorio_CosaRara_REA_V3/00_EMPIEZA_AQUI.md"><strong>EXPLORAR EL LABORATORIO</strong></a>
+  &nbsp; · &nbsp;
+  <a href="Laboratorio_CosaRara_REA_V3.zip"><strong>DESCARGAR V3</strong></a>
+  &nbsp; · &nbsp;
+  <a href="assets/cyber-lab-banner-static.png">Ver portada sin animación</a>
+</p>
+
 # Laboratorio de análisis de CosaRara — V3
 
 Material de estudio de ingeniería inversa de los APK CosaRara y CosaRara Player, analizados estáticamente con REA, JADX y Ghidra.
